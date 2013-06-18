@@ -18,7 +18,7 @@
     Kudoable.prototype.bindEvents = function() {
       this.element.mouseenter(this.start);
       this.element.mouseleave(this.end);
-      this.element.click(this.unkudo);
+      // this.element.click(this.unkudo);
       $(this.element).on('touchstart', this.element, this.start);
       return $(this.element).on('touchend', this.element, this.end);
     };

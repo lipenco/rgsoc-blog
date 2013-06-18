@@ -37,16 +37,4 @@ $(function()
     // set cookie so user cannot kudo again for 7 days
     $.cookie(postId, 'true', { expires: 7 });
   });
-
-  // after removing a kudo
-  $("figure.kudo").bind("kudo:removed", function(e)
-  {
-    var postId = $(this).data('id');
-
-    // ajax'y stuff or whatever you want
-    console.log("Un-Kudo'd:", postId, ":(");
-
-    // remove cookie
-    $.removeCookie(postId);
-  });
 });
