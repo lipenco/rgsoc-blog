@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <%= stylesheet_link_tag "bootstrap", "style" %>
+  </head>
+
+  <body data-target=".nav-collapse">
+
+    <header class="clearfix" role="banner" id="header">
+      <div class="container ">
+        <h1 class="brand">Magdalena Lipi&#324;ska</h1>
+        <div class="nav-collapse collapse">
+           <nav role="navigation">
+             <ul class="nav nav-pills">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    </header>
+    <div class = "container">
+      <%= yield %>
+      <footer role="contentinfo">
+        <p>&copy; <a href="https://lipen.co"> Lipen.co </a> 2013. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
