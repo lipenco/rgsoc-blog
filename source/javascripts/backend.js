@@ -7,7 +7,6 @@ $(function()
 
   $("figure.kudoable").each(function(){
     var postId = $(this).data('id');
-    console.log(postId);
 
     // check to see if user has already kudod
     // fyi cookies do not work when you are viewing this as a file
@@ -28,7 +27,7 @@ $(function()
     var postId = $(this).data('id');
 
     // ajax'y stuff or whatever you want
-    console.log("Kodo'd:", postId, ":)");
+    Parse.Cloud.run('addKudo', {"url":postId});
 
     // set cookie so user cannot kudo again for 7 days
     $.cookie(postId, 'true', { expires: 7 });
