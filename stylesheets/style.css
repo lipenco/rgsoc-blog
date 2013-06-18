@@ -45,6 +45,15 @@ font-size: 2.5em;
 font-weight: bold;
 }
 
+h2 {
+
+  padding-top: 40px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 .brand {
   width = 100px; 
 }
@@ -177,4 +186,5 @@ height: auto;
 
 a:hover {
 color: #444;
+
 }
