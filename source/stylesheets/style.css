@@ -1,0 +1,183 @@
+#header[role="banner"] {
+background-color: rgba(255,255,255,0.5);
+background-image: -webkit-linear-gradient(white, rgba(255,255,255,0.5));
+padding: 0px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+margin-top: -45px;
+}
+
+
+.clearfix:before, .clearfix:after {
+display: table;
+content: "";
+line-height: 0;
+}
+
+
+.container {
+max-width: 724px;
+}
+
+.container:before, .container:after {
+display: table;
+content: "";
+line-height: 0;
+}
+
+#header[role="banner"] nav {
+float: right;
+margin-top: 30px;
+}
+
+
+
+#header[role="banner"] .brand {
+float: left;
+}
+
+h1 {
+display: block;
+font-size: 2.5em;
+-webkit-margin-before: 0.67em;
+-webkit-margin-after: 0.67em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+}
+
+.brand {
+  width = 100px; 
+}
+
+.lead {
+color: #666;
+font-size: 25px;
+font-weight: 100;
+line-height: 30px;
+}
+
+strong {
+font-weight: 200; 
+}
+
+
+p {
+display: block;
+-webkit-margin-before: 1.2em;
+-webkit-margin-after: 1.2em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: lighter;
+}
+
+#content > section {
+margin-top: 0px;
+padding-top: 10px;
+border-top: 1px solid #f2f2f2;
+}
+#content > section:first-child {
+border-top: none;
+}
+
+
+
+div {
+display: block;
+}
+
+.divider {
+margin-top: 40px;
+padding: 0;
+border-top: 1px solid #f2f2f2;
+
+}
+
+.divider p {
+text-align: center;
+display: block;
+margin: 0 auto;
+margin-top: -15px;
+}
+
+figure {
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 40px;
+-webkit-margin-end: 40px;
+margin-left: 0;
+margin-right: 0;
+}
+figure {
+margin-left: 0;
+margin-right: 0;
+}
+
+#projects .project:nth-child(odd) {
+clear: both;
+}
+.span6 {
+width: 352px;
+}
+
+[class*="span"] {
+float: left;
+min-height: 1px;
+margin-left: 20px;
+}
+
+.row {
+margin-left: -20px;
+}
+
+ul.social {
+  margin-top: 30px;
+  float:right;
+}
+
+ul.social li {
+  display: inline-block;
+  margin: 0 6px 0px 0;
+}
+
+ul.social li a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+
+footer[role="contentinfo"] {
+margin-top: 20px;
+padding: 20px 0;
+border-top: 1px solid #f2f2f2;
+}
+
+footer[role="contentinfo"] p {
+color: #999;
+margin: 0;
+}
+
+a img {
+zoom: 1;
+-webkit-transition: opacity 0.2s linear;
+-moz-transition: opacity 0.2s linear;
+transition: opacity 0.2s linear;
+}
+
+a:hover img {
+filter: alpha(opacity=60);
+opacity: .60;
+
+}
+
+a img {
+max-width: 100%;
+height: auto;
+}
+
+a:hover {
+color: #444;
+}
+
+
+
