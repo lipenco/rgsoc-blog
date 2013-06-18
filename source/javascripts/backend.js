@@ -6,19 +6,24 @@ $(function()
   $("figure.kudoable").kudoable();
 
   $("figure.kudoable").each(function(){
-    var postId = $(this).data('id');
+    var element = $(this);
+    var postId = element.data('id');
 
     // check to see if user has already kudod
     // fyi cookies do not work when you are viewing this as a file
     if($.cookie(postId) == 'true') {
       // make kudo already kudod
       $("figure.kudoable").removeClass("animate").addClass("complete");
+    }
 
-      // your server would take care of the proper kudos count, but because this is a
-      // static page, we need to set it here so it doesn't become -1 when you remove
-      // the kudos after a reload
-      $(".num").html(1);
-    } 
+    // set the kudo count from parse
+    var query = new Parse.Query("Post");
+    query.equalTo("url", postId);
+    query.find({
+      success:function(list) {
+        $(element.find(".num")[0]).html(list[0].get("kudos"));
+      }
+    });
   });
 
   // after kudo'd
