@@ -50,6 +50,10 @@ h2 {
   padding-top: 40px;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .brand {
   width = 100px; 
 }
@@ -182,4 +186,5 @@ height: auto;
 
 a:hover {
 color: #444;
+
 }
