@@ -60,9 +60,11 @@ a:hover {
 
 .lead {
 color: #666;
-font-size: 25px;
+font-size: 20px;
 font-weight: 100;
-line-height: 30px;
+line-height: 25px;
+margin-top: 0;
+letter-spacing: 1.5px;
 }
 
 strong {
