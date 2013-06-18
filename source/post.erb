@@ -1,0 +1,21 @@
+<% wrap_layout :layout do %>
+
+ <div class="row">
+  <div class="span6">
+  <h2><%= current_page.title %></h2>
+</div>
+  <div class="span4">
+      <figure class="kudo kudoable" data-id="<%= current_page.url %>">
+      <a class="kudobject">
+        <div class="opening"><div class="circle">&nbsp;</div></div>
+      </a>
+      <a href="#kudo" class="count">
+        <span class="num">0</span>
+        <span class="txt">Kudos</span>
+      </a>
+    </figure>
+  </div>
+    </div>
+
+  <%= yield %>
+<% end %>
