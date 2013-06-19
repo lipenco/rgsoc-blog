@@ -7,10 +7,10 @@ div.opening{
 	height:50px;
 	border-radius:50%;
 	margin:0 auto;
-	border:5px solid #000;
+	border:5px solid #d3360b;
 	position:relative}
 div.opening div.circle{
-	background-color:#000;
+	background-color: #d3360b;
 	width:50px;
 	height:50px;
 	margin-left:-25px;
