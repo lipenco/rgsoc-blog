@@ -60,9 +60,11 @@ a:hover {
 
 .lead {
 color: #666;
-font-size: 25px;
+font-size: 20px;
 font-weight: 100;
-line-height: 30px;
+line-height: 25px;
+margin-top: 0;
+letter-spacing: 1.5px;
 }
 
 strong {
@@ -70,14 +72,19 @@ font-weight: 200;
 }
 
 
-p {
-display: block;
--webkit-margin-before: 1.2em;
--webkit-margin-after: 1.2em;
--webkit-margin-start: 0px;
--webkit-margin-end: 0px;
-font-weight: lighter;
+
+
+p, li {
+ font-size: 1.2em;
+ line-height: 1.3em;
+ font-weight: lighter;
+ margin-top: 15px;
 }
+
+nav li {
+  margin-top: 0;
+}
+
 
 #content > section {
 margin-top: 0px;
@@ -156,7 +163,7 @@ ul.social li a {
 
 
 footer[role="contentinfo"] {
-margin-top: 20px;
+margin-top: 40px;
 padding: 20px 0;
 border-top: 1px solid #f2f2f2;
 }
@@ -187,4 +194,19 @@ height: auto;
 a:hover {
 color: #444;
 
+}
+
+.heading {
+ border-top: 1px solid #f2f2f2;
+  padding:12px 0px;
+  margin:40px 0px 10px 0px;
+  font-size:1.4em;
+}
+
+.kudo  {
+  margin-top: 30px;
+}
+
+h2 {
+   margin-top: 30px;
 }
