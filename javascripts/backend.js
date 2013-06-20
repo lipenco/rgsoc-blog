@@ -13,7 +13,7 @@ $(function()
     // fyi cookies do not work when you are viewing this as a file
     if($.cookie(postId) == 'true') {
       // make kudo already kudod
-      $(element).removeClass("animate").addClass("complete");
+      $("figure.kudoable").removeClass("animate").addClass("complete");
     }
 
     // set the kudo count from parse
