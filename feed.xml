@@ -39,6 +39,35 @@
 &lt;p&gt;To sum up: Steve Jobs would have checked out much sooner had he known this was the way I could set up my developer’s tools.&lt;/p&gt;</content>
   </entry>
   <entry>
+    <title>Rails, impress.js, Design &amp; Disappointment.</title>
+    <link rel="alternate" href="/beeing -offered.html"/>
+    <id>/beeing -offered.html</id>
+    <published>2013-06-20T00:00:00Z</published>
+    <updated>2013-06-20T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I’ll give you $10 if you can get this application to work on my computer. Additional features like air conditioning highly desirable. You in?&lt;/p&gt;
+
+&lt;p&gt;After a productive couple of hours working on implementating my classy design for Speakerinnen Liste with &lt;a href='https://github.com/thatbettina'&gt;Bettina&lt;/a&gt; and &lt;a href='https://github.com/zaziemo'&gt;Maren&lt;/a&gt; (members of the &lt;a href='https://github.com/rubymonsters'&gt;Ruby Monsters&lt;/a&gt; team form Berlin) we apparently had some achievements. Though, if it hadn’t been for John’s help we would have made just a big mess in the code. It’s too bad that when I tried to run the application on my own computer it didn’t work. I&amp;#8217;m having problems with the database.&lt;/p&gt;
+
+&lt;p&gt;I had to stop working on design implementation until the problem is resolved. Instead, I put my hands into &lt;a href='https://github.com/bartaz/impress.js/'&gt;impress.js&lt;/a&gt; – the open source project I will work on this summer. I&amp;#8217;m working with Bartek, impress.js’ owner, and my coaches - John, Chris, and Tom. To understand what is going on behind the scenes, I read the documentation and went through the jQuery code. My jQuery skills can be compared to my Spanish skills – I understand to a certain extent, but active use is quite miserable. I think I have to focus more on this framework.&lt;/p&gt;
+
+&lt;p&gt;Impress.js has a challenge on &lt;a href='http://impressjs.challengepost.com/'&gt;ChallengePost&lt;/a&gt;. It is a great opportunity to practice a little before I start the Summer of Code. I am building a presentation about tax evasion while trying to add new features to the framework. I already made some very fancy CSS3 effects, but I guess the art of this challenge is to translate this mess of CSS into jQuery and make using the features universal and simple. I will try hard, but am not too optimistic about my ability to do it at this point. With JavaScript or without – I promise to gift your eyes.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A good chank of CSS animations and 3D transformation effects.&lt;/li&gt;
+
+&lt;li&gt;How to create sub-steps in my presenatation by showing hidden content with a CSS delay property.&lt;/li&gt;
+
+&lt;li&gt;I started to believe I have to erase my computer to get this database to work.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;To sum up&lt;/strong&gt;: Steve Jobs would have checked out much sooner had he known this was the way I could set up my developer’s tools.&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <title>Blast Off</title>
     <link rel="alternate" href="/blast-off.html"/>
     <id>/blast-off.html</id>
