@@ -10,38 +10,9 @@
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>Rails, impress.js, Design &amp; Desapintment.</title>
+    <title>Rails, impress.js, Design &amp; Disappointment.</title>
     <link rel="alternate" href="/rails-impress-js.html"/>
     <id>/rails-impress-js.html</id>
-    <published>2013-06-20T00:00:00Z</published>
-    <updated>2013-06-20T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;I’ll give you $10 if I can get this application work on my computer. Additional features like air conditioning highly desirable. You in?&lt;/p&gt;
-
-&lt;p&gt;After productive couple of hours with Bettina and Maren (members of the Ruby Monsters team form Berlin) and working together on implementation of my classy design for rails application we apparently had some achievements. Though, ff it hadn’t been for John’s help we would have made just a big mess in the code. It’s too bad that when I tried to run application on my own computer it didn’t work. Problems with database.&lt;/p&gt;
-
-&lt;p&gt;I had to skip working on design implementation and wait for more patience to solve this problem. Instead I put my hands into &lt;a href='https://github.com/bartaz/impress.js/'&gt;impress.js&lt;/a&gt; – the open source project I will work on with Bartek (impress.js’ owner and my coaches- John, Chris and Tom). To understand what is going on behind the scenes, or canvas in this case I read the documentation and went through jquery code. My jquery skill can be compared to my Spanish skills – I understand to certain extend, but the active usage is quite miserable. I think i have to focus more on this language.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='https://github.com/bartaz/impress.js/'&gt;impress.js&lt;/a&gt; has now it’s challenge on &lt;a href='http://impressjs.challengepost.com/'&gt;ChallengePost&lt;/a&gt;. It is a great opportunity to practice a little before the Summer of Code. I am building my presentation about tax evasion trying to add extended features. I already got to some very fancy css3 effects, but I guess the art of this challenge is to translate this big css code into jquery and make using the features universal and simple. I will try hard, but am not too optimistic about my ability to do it at this point. With java script or without – I will promise to gift your eyes.&lt;/p&gt;
-
-&lt;h3 id='i_learned_today'&gt;I learned today:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A good chank of CSS animations and 3D translations effects&lt;/li&gt;
-
-&lt;li&gt;How to create sub-steps - showing hidden content without changing the slide with a delay CSS property.&lt;/li&gt;
-
-&lt;li&gt;I started to believe I have to errase my computer to get this database to work.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To sum up: Steve Jobs would have checked out much sooner had he known this was the way I could set up my developer’s tools.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Rails, impress.js, Design &amp; Disappointment.</title>
-    <link rel="alternate" href="/beeing -offered.html"/>
-    <id>/beeing -offered.html</id>
     <published>2013-06-20T00:00:00Z</published>
     <updated>2013-06-20T00:00:00Z</updated>
     <author>
@@ -65,7 +36,7 @@
 &lt;li&gt;I started to believe I have to erase my computer to get this database to work.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;To sum up&lt;/strong&gt;: Steve Jobs would have checked out much sooner had he known this was the way I could set up my developer’s tools.&lt;/p&gt;</content>
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Steve Jobs would have checked out much sooner had he known this was the way I could set up my developer’s tools.&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Blast Off</title>
