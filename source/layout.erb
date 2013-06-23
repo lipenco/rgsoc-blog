@@ -5,13 +5,15 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <%= stylesheet_link_tag "bootstrap", "style", "kudos" %>
     <script src="http://www.parsecdn.com/js/parse-1.2.8.min.js"></script>
-     <%= javascript_include_tag "jquery-1.9.1.min", "jquery.cookie", "kudos", "backend" %>
+     <%= javascript_include_tag "jquery-1.9.1.min", "jquery.cookie", "kudos", "backend", "gradient" %>
     
   </head>
 
   <body data-target=".nav-collapse">
+  
 
     <header class="clearfix" role="banner" id="header">
+     
       <div class="container ">
         <h1 class="brand">Lipenco: Today I Learned</h1>
         <div class="nav-collapse collapse">
@@ -27,13 +29,19 @@
     <div class="container">
     <p class="lead">My name is Magdalena Lipi&#324;ska and I am an excited <strong> Rails Girls Summer of Code</strong> participant. This (hand made) blog was created to track my steps towards ultimate nerdiness.</p>
   </div>
+
     </header>
     <div class = "container">
       <%= yield %>
-
+    </div>
+  <div id="gradient">
       <footer role="contentinfo">
+        <div class = "container">
         <p>&copy; <a href="http://lipen.co/"> Lipen.co </a> 2013. All rights reserved.</p>
+      </div>
       </footer>
     </div>
+    </div>
+
   </body>
 </html>
