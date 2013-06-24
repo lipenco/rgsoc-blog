@@ -6,6 +6,10 @@ box-shadow: 0 0 10px rgba(0,0,0,0.1);
 margin-top: -45px;
 }
 
+#gradient {
+  height: 100%
+  width: 100%
+}
 
 .clearfix:before, .clearfix:after {
 display: table;
