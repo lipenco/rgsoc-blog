@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Blog Name</title>
-  <subtitle>Blog subtitle</subtitle>
-  <id>http://blog.url.com/</id>
-  <link href="http://blog.url.com/"/>
-  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <title>Lipen.co</title>
+  <subtitle>Today I Learned</subtitle>
+  <id>http://lipen.co/til</id>
+  <link href="http://lipen.co/til"/>
+  <link href="http://lipen.co/til/feed.xml" rel="self"/>
   <updated>2013-06-24T00:00:00Z</updated>
   <author>
-    <name>Blog Author</name>
+    <name>Magdalena Lipinska</name>
   </author>
   <entry>
     <title>Impress.js I Love You, but You Turn me Down</title>
