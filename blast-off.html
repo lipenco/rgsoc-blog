@@ -20,16 +20,24 @@
 
     <header class="clearfix" role="banner" id="header">
      
-      <div class="container ">
-        <h1 class="brand">Lipenco: Today I Learned</h1>
-        <div class="nav-collapse collapse">
-           <nav role="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="span5">
+            <h1><a href="/">Lipenco: Today I Learned</a></h1>
+          </div>
+          <div class="span4">
+             <div class="nav-collapse collapse">
+               <nav role="navigation">
              <ul class="nav nav-pills">
             <li><a href="http://lipen.co/">My website</a></li>
             <li><a href="feed.xml">RSS</a></li>
             <li><a href="http://lipen.co/#contact">Contact</a></li>
-          </ul>
-        </nav>
+             </ul>
+               </nav>
+          </div>
+    
+      </div>
+    </div>
       </div>
     </div>
     <div class="container">
@@ -57,7 +65,6 @@
 
 <div class="heading">  </div>
 
-
 <p>Time to prepare for the Rails Girls Summer of Code. My first task was to create this blog to track my work. It seems like changing my every-day passion into a full-time routine, but as an ex-journalist I&#8217;m looking forward to some exhibitionist pleasure. It&#8217;s most likely a one-sided pleasure, my dear small audience.</p>
 
 <p>Rails Girls Summer of Code starts in two weeks. All the participants are supposed to keep a blog to track progress. I&#8217;ve seen some of them already – beautiful design made in five minutes using popular services. Some people call it effectiveness, but there is such a masochistic pleasure in reinventing the wheel that I can&#8217;t resist. I decided to build my hand-made blog. John believes that the only sensible choice for a developer blog is to use a static website generator. I am under constant static-website propaganda that I started to believe that a good front-end developer does not need to get her hands dirty with PHP and I gave up tha idea of creating a Wordpress theme.</p>
@@ -78,6 +85,24 @@
 
 <p><em>To sum up</em>: You&#8217;d better make good use of Kudos - it cost me so much time! Viciously I (we) made it so that you cannot remove your kudo in case you change your mind ;p.</p>
 
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'lipenco-til'; // required: replace example with your forum shortname
+      var disqus_identifier = '/blast-off.html';
+      var disqus_title = 'Blast Off';
+      var disqus_url = 'http://lipen.co/til/blast-off.html';
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
     </div>
   <div id="gradient">
       <footer role="contentinfo">
@@ -87,6 +112,17 @@
       </footer>
     </div>
     </div>
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'lipenco-til'; // required: replace example with your forum shortname
 
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+var s = document.createElement('script'); s.async = true;
+s.type = 'text/javascript';
+s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
   </body>
 </html>
