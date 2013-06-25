@@ -2,7 +2,7 @@
 title: Impress.js I Love You, but You Turn me Down
 ---
 
-John saved me (again) and reset all the mess from my computer (pff. machine ;p). He dictated (as dictators do) to use [Boxen](http://boxen.github.com) and Time Machine. Now I can run the Speakerinnen application get from localhost. John as my backseat developer is just irreplaceable. Well, he is irreplaceable anyways.
+John saved me (again) and reset all the mess from my computer (pff. machine ;p). He dictated (as dictators do) to use [Boxen](http://boxen.github.com) and Time Machine. Now I can run the Speakerinnen application from localhost. John as my backseat developer is just irreplaceable. Well, he is irreplaceable anyways.
 
 I started my day with [impress.js](https://github.com/bartaz/impress.js/), having a briliant idea to steal some features I need for my presentation form [Jmpress.js](http://jmpressjs.github.io/jmpress.js/#/home) (the framework based on impress.js). As unfair as it sounds, using libraries doesn't make you a developer. After trying and trying I was beaten up and decided to get to JavaScript fundaments. I started reading the book ["Java Script - Enlightement"](http://www.javascriptenlightenment.com/), which was a perfect intro to an afternoon nap. Nonetheless I belive it is the right way to get some front-end power and jump form imitation into creation.
 
