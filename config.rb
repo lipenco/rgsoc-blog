@@ -90,8 +90,6 @@ set :relative_links, true
 
 # Build-specific configuration
 configure :build do
-  set :http_prefix, '/til/'
-
   # For example, change the Compass output style for deployment
   # activate :minify_css
   
