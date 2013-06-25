@@ -41,19 +41,24 @@ float: left;
 
 h1 a {
 display: block;
-font-size: 0.9em;
--webkit-margin-before: 0.67em;
--webkit-margin-after: 0.67em;
--webkit-margin-start: 0px;
--webkit-margin-end: 0px;
+font-size: 0.7em;
 font-weight: lighter;
-margin-left: -10%;
+padding-top: 15px;
+ margin-left: -72%;
+}
+
+h1 img {
+  display: block;
+  width: 70%;
+  margin-left: -90%;
+  padding-top: 6px;
 }
 
 h2 {
 
   padding-top: 40px;
   font-weight: lighter;
+
 
 }
 
