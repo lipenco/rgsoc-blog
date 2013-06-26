@@ -15,4 +15,4 @@ Today I feel sorry I didn't continue on reading my favourite bed story about Jav
 * Being the owner of popular open source project is like a full time jobs - judging by the number of discussion and github issues Bartek is able to respond to and deal with.
 
 _To sum up_:
-I can profit off stealing sombodys' else solutions, but I can’t promote it.
+Searching for ready to use coding solutions sux but at least i found [this!](http://pudelekx.pl/na-bahamach-jest-plaza-dla-swin-7466).
