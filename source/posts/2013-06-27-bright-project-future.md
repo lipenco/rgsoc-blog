@@ -10,7 +10,7 @@ I panned to continue on reading my favourite bed story about omnipotent JavaScri
 
 ### Today I Learned:
 
-* I discovered a wonderful framework: [animate.css](http://daneden.me/animate/) and some hidden gem for [impress.js - sub-steps](https://github.com/tehfoo/impress.js) navigation for presentation that works just prefect for me. I am curious what keeps Bartek from merging this code.
+* I discovered a wonderful framework: [animate.css](http://daneden.me/animate/) and one hidden gem for [impress.js - sub-steps](https://github.com/tehfoo/impress.js) navigation for presentation that works just prefect for me. I am curious what keeps Bartek from merging this code.
 * jQuery documentation is the least helpful crap I have seen. 
 * Being the owner of popular open source project is like a full time jobs - judging by the number of discussion and github issues Bartek is able to respond to and deal with.
 
