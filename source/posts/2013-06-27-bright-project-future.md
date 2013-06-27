@@ -6,7 +6,7 @@ We planned, we discussed and now I know (what I don't know yet) better. We set o
 
 We are going to use [Trello board](https://trello.com/board/impress-js-summer-of-code/51bee39938cdf46401002f4e) for managing my chaos. Feel more than welcome to spy on this stuff. Knowing you see will make me more ambitious, though I believe one more hour daily looking at 3d objects rendering in the browser could kill me.
 
-Today I feel sorry I didn't continue on reading my favourite bed story about JavaScript, any tutorials and I didn't start to read [book about impress.js](http://www.amazon.com/dp/1849696489), but I just spent all my time on preparing my presentation and testing out animations and sub-step features.
+I panned to continue on reading my favourite bed story about omnipotent JavaScript, some other tutorials and [book about impress.js](http://www.amazon.com/dp/1849696489), but I just spent all my time on preparing my presentation testing out animations and sub-step features.
 
 ### Today I Learned:
 
