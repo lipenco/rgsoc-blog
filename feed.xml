@@ -5,10 +5,31 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-06-27T00:00:00Z</updated>
+  <updated>2013-06-28T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>I am Done With it</title>
+    <link rel="alternate" href="/I-am-done.html"/>
+    <id>http://lipen.co/til/I-am-done.html</id>
+    <published>2013-06-28T00:00:00Z</published>
+    <updated>2013-06-28T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Building a presentation with impress.js is like Disneyland - it will never be finished. There is always something you can add or correct. But I am done with &lt;a href='http://impressjs.challengepost.com/'&gt;ChallengePost&lt;/a&gt;. I don&amp;#8217;t want to hear about Google tax evasion any more. This gradient has burned out my eyes. Try to look as it for 9h a day for a week, you will/won&amp;#8217;t see.&lt;/p&gt;
+
+&lt;p&gt;Here it is, my &lt;a href='http://lipen.co/google-tax-evasion-presentation/'&gt;awesome presentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How to finish up the project, go out with a firend, do some voluntary work, meet up with part of RubyMonsters team to work on Speakerinnen Liste and cook the dinner,&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Cooding is like a bad sex - so hard to finish, even if you kind of enjoying it.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Bright Project Future, Seen in 3D</title>
     <link rel="alternate" href="/bright-project-future.html"/>
