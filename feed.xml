@@ -5,10 +5,39 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-06-28T00:00:00Z</updated>
+  <updated>2013-07-01T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>Ready Steady Code</title>
+    <link rel="alternate" href="/ready-steady-code.html"/>
+    <id>http://lipen.co/til/ready-steady-code.html</id>
+    <published>2013-07-01T00:00:00Z</published>
+    <updated>2013-07-01T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;So here I am - 150 100 900 tabs open with tutorials and articles about JavaScript and CSS3. I try to be attentive to them all - these are my mentor&amp;#8217;s recommendations.&lt;/p&gt;
+
+&lt;p&gt;Fortunately Bartek shears my opinion that you need to start coding to figure out that reading doesn&amp;#8217;t really makes a work done for you.&lt;/p&gt;
+
+&lt;p&gt;Today, on our first weekly meeting, we set our firs operational plan for the first week of Summer of Code: to provide impress.js users with css themes and imaginative html. The most challenging part will be to pretend that I understand every single line of imppress.js JavaScript code.&lt;/p&gt;
+
+&lt;p&gt;We also discussed if we should care about your grandfather using IE(10) or not and how can we pleased him as well. Look at my &lt;a href='https://trello.com/board/impress-js-summer-of-code/51bee39938cdf46401002f4e'&gt;Trello Board&lt;/a&gt; to see how it is going.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Book &lt;a href='http://www.amazon.com/dp/1849696489'&gt;&amp;#8216;Building Impressive Presentations with Impress.js&amp;#8217;&lt;/a&gt; was surprisingly interesting&lt;/li&gt;
+
+&lt;li&gt;I think I finally understand how to use git to not mess up with Rubymonsters project.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='https://ep2013.europython.eu/p3/live/'&gt;EuroPython&lt;/a&gt; schedule doesn&amp;#8217;t seduce me, but I will give a try tomorrow.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Passive knowledge isn&amp;#8217;t worth my time.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>I am Done With it</title>
     <link rel="alternate" href="/I-am-done.html"/>
@@ -143,16 +172,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: You&amp;#8217;d better make good use of Kudos - it cost me so much time! Viciously I (we) made it so that you cannot remove your kudo in case you change your mind ;p.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>First Post</title>
-    <link rel="alternate" href="/first-post.html"/>
-    <id>http://lipen.co/til/first-post.html</id>
-    <published>2013-06-18T00:00:00Z</published>
-    <updated>2013-06-18T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;code&gt;puts &amp;quot;hello world&amp;quot;&lt;/code&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
