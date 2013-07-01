@@ -1,7 +1,7 @@
 ---
 title: Ready Steady Code
 ---
-So here I am - 150 100 900 tabs open with tutorials and articles about JavaScript and CSS3. I try to be attentive to them all - these are my mentor's recommendations.
+So here I am - 150 100 900 tabs open with tutorials and articles about JavaScript and CSS3. I am trying to be attentive - these are my mentor's recommendations.
 
 Fortunately Bartek shears my opinion that you need to start coding to figure out that reading doesn't really makes a work done for you.
 
