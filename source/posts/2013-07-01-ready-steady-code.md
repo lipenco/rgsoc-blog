@@ -1,5 +1,6 @@
 ---
 title: Ready Steady Code
+date: 2013-07-01 10:50PM
 ---
 So here I am - 1500 100 900 tabs open with tutorials and articles about JavaScript and CSS3. I am trying to be attentive - these are my mentor's recommendations.
 
