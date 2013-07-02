@@ -10,7 +10,7 @@
     <name>Magdalena Lipinska</name>
   </author>
   <entry>
-    <title>It only Looks that Simple</title>
+    <title>It Only Looks that Simple</title>
     <link rel="alternate" href="/it-only-seems-to-be-easy.html"/>
     <id>http://lipen.co/til/it-only-seems-to-be-easy.html</id>
     <published>2013-07-02T00:00:00Z</published>
@@ -18,16 +18,16 @@
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;But is is not. &lt;a href='http://lipen.co/theme-impress/theme-index.html#/slide1'&gt;This is what I did today&lt;/a&gt; - work in progress of building a universal, aesthetic template for masses.&lt;/p&gt;
+    <content type="html">&lt;p&gt;But is is not. &lt;a href='http://lipen.co/theme-impress/theme-index.html#/slide1'&gt;This is what I did today&lt;/a&gt; - it&amp;#8217;s a work in progress for a universal and aesthetic template for the masses.&lt;/p&gt;
 
 &lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;I can spend 3h choosing and adjusting right images - it is kind of annoying to have too many ideas and nice pictures to choose from.&lt;/li&gt;
+&lt;li&gt;I can spend 3h choosing and adjusting images - it is kind of annoying to have too many ideas and nice pictures to choose from.&lt;/li&gt;
 
-&lt;li&gt;Photoshop is a terrible trap that coatch me and didn&amp;#8217;t want to let me out.&lt;/li&gt;
+&lt;li&gt;Photoshop is a terrible trap that caught me and didn&amp;#8217;t want to let me go.&lt;/li&gt;
 
-&lt;li&gt;EuroPython is good for everybody but people who want to learn something about front-end and open source. Even is the lecture title doesn&amp;#8217;t seem so.&lt;/li&gt;
+&lt;li&gt;The first day of &lt;a href='https://ep2013.europython.eu'&gt;EuroPython&lt;/a&gt; was rough for me - just too much Python. But at least it let me go forwrd with my impress.js &amp;#8216;assignments&amp;#8217;.&lt;/li&gt;
 
 &lt;li&gt;Right positioning in impress.js is kind of difficult.&lt;/li&gt;
 &lt;/ul&gt;
