@@ -12,7 +12,7 @@ John is invinceble: 'ok, let's skip that, I will ask Bartek', I said being beate
 
 ### Today I Learned:
 * Dealing with impress.js JS code is super difficult.
-* Dealing with JS books are super boring and it won't teach you JS.
+* Dealing with JS books are super boring and they won't teach you JS.
 * You should try understand impress.js code because it is wild.
 * You should take a nap every 100 lines of impress.js JS code.
 * Rotation of crops helps you to stay excited and not to panic: on a side I am doing my [friend's website](http://lipen.co/til-informal-tech-education/)
