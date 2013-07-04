@@ -11,9 +11,8 @@ John is invinceble: 'ok, let's skip that, I will ask Bartek', I said being beate
 'No, I also want to to understand', his striving for knowledge made us slower, me more nervous and him more proud of his teaching skills.
 
 ### Today I Learned:
-* JavaScript Enlightement is awesome but it won't teach you JavaScript.
 * Dealing with impress.js JS code is super difficult.
-* Dealing with JS books are super boring.
+* Dealing with JS books are super boring and it won't teach you JS.
 * You should try understand with impress.js because it is wild.
 * You should take a nap every 100 lines of impress.js JS code.
 * Rotation of crops helps you to stay excited and not to panic: on a side I am doing my [friend's website](http://lipen.co/til-informal-tech-education/)
