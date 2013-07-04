@@ -18,11 +18,11 @@
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;Today I touched the guts. It was my JavaScript day. I finished up the &amp;#8220;Javascript Enlighment&amp;#8221; book, but with the feeling that I still don&amp;#8217;t know anything I sat with John to reviews some impress.js JavaScript code.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Today I touched the guts. It was my JavaScript day. I finished up the &amp;#8220;Javascript Enlighment&amp;#8221; book, but with the feeling that I still don&amp;#8217;t know anything, I sat with John to reviews some impress.js JavaScript code.&lt;/p&gt;
 
-&lt;p&gt;After 2 hours we found ourselves on 75th line (out of 800). Guys, this is so difficult! Stuff like &amp;#8216;use strict&amp;#8217;, IIFE&amp;#8230; OMG! Guys, it is wild.&lt;/p&gt;
+&lt;p&gt;After 2 hours we found ourselves on the 75th line (out of 800). Guys, this is so difficult! Stuff like &amp;#8216;use strict&amp;#8217;, &lt;a href='http://en.wikipedia.org/wiki/Immediately-invoked_function_expression'&gt;IIFE&lt;/a&gt;&amp;#8230; OMG! Guys, it is wild.&lt;/p&gt;
 
-&lt;p&gt;John is invinceble: &amp;#8216;ok, let&amp;#8217;s skip that, I will ask Bartek&amp;#8217;, I said being beaten by the code. &amp;#8216;No, I also want to to understand&amp;#8217;, his striving for knowledge made us slower, me more nervous and him more proud of his teaching skills.&lt;/p&gt;
+&lt;p&gt;John is invincible: &amp;#8220;Ok, let&amp;#8217;s skip that, I will ask Bartek,&amp;#8221; I said being beaten by the code. &amp;#8220;No, I also want to to understand&amp;#8221;, his striving for knowledge made us slower, me more nervous and him more proud of his teaching skills.&lt;/p&gt;
 
 &lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
 
@@ -35,7 +35,7 @@
 
 &lt;li&gt;You should take a nap every 100 lines of impress.js JS code.&lt;/li&gt;
 
-&lt;li&gt;Rotation of crops helps you to stay excited and not to panic: on a side I am doing my &lt;a href='http://lipen.co/til-informal-tech-education/'&gt;friend&amp;#8217;s website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rotation of crops helps you to stay excited and not to panic: on the side I am doing my &lt;a href='http://lipen.co/til-informal-tech-education/'&gt;friend&amp;#8217;s website&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: &amp;#8216;Certain things are false, everything else is true&amp;#8217; - &amp;#8216;JavaScript Enlightement&amp;#8217;, p. 91%.&lt;/p&gt;</content>
