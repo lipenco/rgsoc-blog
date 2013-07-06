@@ -1,0 +1,16 @@
+---
+title: JavaScript is Eating From my Hand.
+---
+
+Reading JavaScript code out loud, line by line with someone who is able to correct you and explain things is 100 times more helpful than reading books and repeating theory. John said it was fun to explain impress.js to me. I felt sorry for him all these long hours.
+
+It took longer than expected, but I am kind of proud that I am able to translate this code into words. Still I have a feeling that the path from understanding to writing is long and bumpy.
+
+### Today I Learned:
+* My project management is not great (yet), but I don't mind reading code in the train on Saturday. I will be ready with all my assignments for my call with Bartek on Monday.
+* [JavaScript Guide by Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) is worth reading.
+* I am getting this strange habit, that instead of facebooking to relax I am looking for and staring on GitHub cool open source projects.
+
+_To sum up_:
+[Will never be a summer like this](http://www.youtube.com/watch?v=yfT-ISOwRtw)
+
