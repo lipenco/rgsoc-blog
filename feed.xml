@@ -5,10 +5,35 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-07-04T00:00:00Z</updated>
+  <updated>2013-07-06T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>JavaScript is Eating From my Hand.</title>
+    <link rel="alternate" href="http://lipen.co/til/javascript-is-eating-from-my-hand.html"/>
+    <id>http://lipen.co/til/javascript-is-eating-from-my-hand.html </id>
+    <published>2013-07-06T00:00:00Z</published>
+    <updated>2013-07-06T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Reading JavaScript code out loud, line by line with someone who is able to correct you and explain things is 100 times more helpful than reading books and repeating theory. John said it was fun to explain impress.js to me. I felt sorry for him all these long hours.&lt;/p&gt;
+
+&lt;p&gt;It took longer than expected, but I am kind of proud that I am able to translate this code into words. Still I have a feeling that the path from understanding to writing is long and bumpy.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;My project management is not great (yet), but I don&amp;#8217;t mind reading code in the train on Saturday. I will be ready with all my assignments for my call with Bartek on Monday.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide'&gt;JavaScript Guide by Mozilla&lt;/a&gt; is worth reading.&lt;/li&gt;
+
+&lt;li&gt;I am getting this strange habit, that instead of facebooking to relax I am looking for and staring on GitHub cool open source projects.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: &lt;a href='http://www.youtube.com/watch?v=yfT-ISOwRtw'&gt;Will never be a summer like this&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Where the Magic and Panic Happen</title>
     <link rel="alternate" href="http://lipen.co/til/where-the-magic-and-panic-happen.html"/>
@@ -139,34 +164,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Searching for ready to use coding solutions sux but at least I found &lt;a href='http://pudelekx.pl/na-bahamach-jest-plaza-dla-swin-7466'&gt;this!&lt;/a&gt;.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Impress.js I Love You, but You Turn me Down</title>
-    <link rel="alternate" href="http://lipen.co/til/impress-js-i-love-you.html"/>
-    <id>http://lipen.co/til/impress-js-i-love-you.html </id>
-    <published>2013-06-24T00:00:00Z</published>
-    <updated>2013-06-24T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;John saved me (again) and reset all the mess from my computer (pff. machine ;p). He dictated (as dictators do) to use &lt;a href='http://boxen.github.com'&gt;Boxen&lt;/a&gt; and Time Machine. Now I can run the Speakerinnen application from localhost. John as my backseat developer is just irreplaceable. Well, he is irreplaceable anyways.&lt;/p&gt;
-
-&lt;p&gt;I started my day with &lt;a href='https://github.com/bartaz/impress.js/'&gt;impress.js&lt;/a&gt;, having a briliant idea to steal some features I need for my presentation form &lt;a href='http://jmpressjs.github.io/jmpress.js/#/home'&gt;Jmpress.js&lt;/a&gt; (the framework based on impress.js). As unfair as it sounds, using libraries doesn&amp;#8217;t make you a developer. After trying and trying I was beaten up and decided to get to JavaScript fundaments. I started reading the book &lt;a href='http://www.javascriptenlightenment.com/'&gt;&amp;#8220;Java Script - Enlightement&amp;#8221;&lt;/a&gt;, which was a perfect intro to an afternoon nap. Nonetheless I belive it is the right way to get some front-end power and jump form imitation into creation.&lt;/p&gt;
-
-&lt;p&gt;Today, on my last Rubymonster Monday meet up in Berlin we &lt;a href='https://github.com/rubymonsters/speakerinnen_liste/commit/986468c18e527b06b9c047102c4a0ca5a543f59a'&gt;merged my design to master&lt;/a&gt;. It was a nice and rewarding feeling. I will miss this crew, especially now that this project has gained momentum. I am not a person who gets mushy on the sound of the word &amp;#8220;community,&amp;#8221; and even less when it comes to all this feminism bullsh..hmm&amp;#8230; discourse, but RailsGirls really makes a lot of sense.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;With a liitle bit of cheating, stealing and PS transforming you can figure out how to make a decent logo for free.&lt;/li&gt;
-
-&lt;li&gt;Reading books about programing is like reading porno stories, so much work to imagine it all, it is so much better to just to it.&lt;/li&gt;
-
-&lt;li&gt;Peer to peer learning is effective maybe 15% of the time, but it is worth every minute you wasted on it.&lt;/li&gt;
-
-&lt;li&gt;Git is exactly what it means.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: I am so enthiusiastic about my nerdy life that I added a new moving gradient footer to the blog, even if it has a similar aesthetic to Kreusberg and Nukloin&amp;#8217;s clothing shops mixed with a bit of kebab smell.&lt;/p&gt;</content>
   </entry>
 </feed>
