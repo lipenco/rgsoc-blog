@@ -2,7 +2,7 @@
 title: Are we there yet?
 ---
 
-No! Why should I write my own JS code if there are so many nice books to read about it. The suspense just keep me hooked into reading more and more of them. It is a drama and the climax seems to be reachable. 
+No! Why should I write my own JS code if there are so many nice books to read about it. The suspense just keep me hooked into reading more and more of them. It is a drama and the climax seems to be unreachable. 
 
 [Eloquent JavaScript](http://eloquentjavascript.net/) is the best position about JS I've read so far. Not only because I can read it in Polish. I am working my ass off doing (most of) book's exercises, but let's face it - it is just not right. 
 
