@@ -5,10 +5,37 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-07-06T00:00:00Z</updated>
+  <updated>2013-07-09T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>Are we there yet?</title>
+    <link rel="alternate" href="http://lipen.co/til/are-we-there-yet.html"/>
+    <id>http://lipen.co/til/are-we-there-yet.html </id>
+    <published>2013-07-09T00:00:00Z</published>
+    <updated>2013-07-09T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;No! Why should I write my own JS code if there are so many nice books to read about it. The suspense just keep me hooked into reading more and more of them. It is a drama and the climax seems to be reachable.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://eloquentjavascript.net/'&gt;Eloquent JavaScript&lt;/a&gt; is the best position about JS I&amp;#8217;ve read so far. Not only because I can read it in polish. I am working my ass off doing (most of) book&amp;#8217;s exercises, but let&amp;#8217;s face it - it is just not right.&lt;/p&gt;
+
+&lt;p&gt;Besides I finished my two templates. I am excited about the feedback -I will know it tomorrow.&lt;/p&gt;
+
+&lt;p&gt;The disappointing experience was my attempt to figure out how to solve the problem of &lt;a href='https://github.com/bartaz/impress.js/pull/131'&gt;relative step positioning in impress.js&lt;/a&gt;. I need to give a try again.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Closures, recursion, scopes (again), looping (again), strict mode (again)&lt;/li&gt;
+
+&lt;li&gt;Polish words in programming sounds so surprising.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Vote for &lt;a href='http://impressjs.challengepost.com/submissions/16286-presentation-about-google-convenient-tax-policy'&gt;my presentation&lt;/a&gt;!&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>JavaScript is Eating From my Hand.</title>
     <link rel="alternate" href="http://lipen.co/til/javascript-is-eating-from-my-hand.html"/>
@@ -137,32 +164,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Censured&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Bright Project Future, Seen in 3D</title>
-    <link rel="alternate" href="http://lipen.co/til/bright-project-future.html"/>
-    <id>http://lipen.co/til/bright-project-future.html </id>
-    <published>2013-06-27T00:00:00Z</published>
-    <updated>2013-06-27T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;We planned, we discussed, and now I know what I don&amp;#8217;t know, much better. We set our goal for the summer project clear and simple: make impress.js easy to use for less tech savvy &lt;code&gt;||&lt;/code&gt; lazy people. I&amp;#8217;ll need to boost my CSS3 and JavaScript skills in order to achieve this goal. But the most important thing I learned from my first call with my mentor is that he is exactly the person I need and want to work with. Dedicated and willing to share his knowledge. &amp;#8220;I don&amp;#8217;t want to limit my role as a mentor to reviewing the code and setting tasks for you, I am happy to teach you stuff,&amp;#8221; he said. Just perfect.&lt;/p&gt;
-
-&lt;p&gt;We are going to use a &lt;a href='https://trello.com/board/impress-js-summer-of-code/51bee39938cdf46401002f4e'&gt;Trello board&lt;/a&gt; to manage the chaos. Feel more than welcome to spy on this stuff. Knowing you&amp;#8217;re watching will make me more ambitious even though I probably wouldn&amp;#8217;t survive working any more each day.&lt;/p&gt;
-
-&lt;p&gt;I planned to continue on reading my favourite bed story about the omnipotent JavaScript and &lt;a href='http://www.amazon.com/dp/1849696489'&gt;book about impress.js&lt;/a&gt;, but I just spent all my time on preparing my presentation testing out animations and sub-step features.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I discovered a wonderful framework: &lt;a href='http://daneden.me/animate/'&gt;animate.css&lt;/a&gt; and a hidden gem, &lt;a href='https://github.com/tehfoo/impress.js'&gt;impress.js - sub-steps&lt;/a&gt;, that provides navigation sub-steps for presentations. I am curious what keeps Bartek from merging this code.&lt;/li&gt;
-
-&lt;li&gt;jQuery documentation is the least helpful crap I have seen.&lt;/li&gt;
-
-&lt;li&gt;Being the owner of popular open source project is like a full time job – judging by the number of discussion and GitHub issues Bartek to responds to.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Searching for ready to use coding solutions sux but at least I found &lt;a href='http://pudelekx.pl/na-bahamach-jest-plaza-dla-swin-7466'&gt;this!&lt;/a&gt;.&lt;/p&gt;</content>
   </entry>
 </feed>
