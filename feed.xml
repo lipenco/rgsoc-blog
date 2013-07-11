@@ -10,7 +10,7 @@
     <name>Magdalena Lipinska</name>
   </author>
   <entry>
-    <title/>
+    <title>Działa! (pol. it works) Hurra, Hurra!</title>
     <link rel="alternate" href="http://lipen.co/til/dziala.html"/>
     <id>http://lipen.co/til/dziala.html </id>
     <published>2013-07-10T00:00:00Z</published>
@@ -18,10 +18,7 @@
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;hr /&gt;
-&lt;h2 id='title_dziaa_pol_it_works_hurra_hurra'&gt;title: Działa! (pol. it works) Hurra, Hurra!&lt;/h2&gt;
-
-&lt;p&gt;The end of the theoretical muttering about objects and arrays came with new assignments. Though it has been difficult, step by step, I am preparing a slide position generator. This tasks seems to be as exciting as it is frustrating.&lt;/p&gt;
+    <content type="html">&lt;p&gt;The end of the theoretical muttering about objects and arrays came with new assignments. Though it has been difficult, step by step, I am preparing a slide position generator. This tasks seems to be as exciting as it is frustrating.&lt;/p&gt;
 
 &lt;p&gt;The first exercise sounds easy: &amp;#8220;Let&amp;#8217;s assume that the HTML for an impress.js presentation is created (all steps) but without &lt;code&gt;data-attribute&lt;/code&gt;s. So steps don&amp;#8217;t have any position defined in HTML. (..) Write a script that runs before impress.init() that adds some positions to all steps. (..).&amp;#8221;&lt;/p&gt;
 
