@@ -5,10 +5,44 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-07-09T00:00:00Z</updated>
+  <updated>2013-07-10T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title/>
+    <link rel="alternate" href="http://lipen.co/til/dziala.html"/>
+    <id>http://lipen.co/til/dziala.html </id>
+    <published>2013-07-10T00:00:00Z</published>
+    <updated>2013-07-10T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;hr /&gt;
+&lt;h2 id='title_dziaa_pol_it_works_hurra_hurra'&gt;title: Działa! (pol. it works) Hurra, Hurra!&lt;/h2&gt;
+
+&lt;p&gt;The end of the theoretical muttering about objects and arrays came with new assignments. Though it has been difficult, step by step, I am preparing a slide position generator. This tasks seems to be as exciting as it is frustrating.&lt;/p&gt;
+
+&lt;p&gt;The first exercise sounds easy: &amp;#8220;Let&amp;#8217;s assume that the HTML for an impress.js presentation is created (all steps) but without &lt;code&gt;data-attribute&lt;/code&gt;s. So steps don&amp;#8217;t have any position defined in HTML. (..) Write a script that runs before impress.init() that adds some positions to all steps. (..).&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;I was jumping for happiness when my simple &lt;a href='https://github.com/lipenco/impress.js-myscript'&gt;for loop&lt;/a&gt; worked.&lt;/p&gt;
+
+&lt;p&gt;I had a nice talk with my friend, an experienced developer. He tried hard to persuade me to start with Java or C#. In his opinion, JavaScript is not the right place to start: it is difficult to debug and it is hard to learn all the programming logic in the browser. &amp;#8220;The language is not important, abstract thinking and code writing are skills you need now.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;I am thinking seriously about getting back to the &lt;a href='https://www.edx.org/course/harvard-university/cs50x/introduction-computer-science/1022'&gt;CS50x&lt;/a&gt; computer science course from Harvard that I started a long time ago and never finished. It was just too painful.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Thanks to Bartek I understood that impress.js is not listening to any code I am writing outside this function, which wasn&amp;#8217;t too obvious for me.&lt;/li&gt;
+
+&lt;li&gt;He taught me many other things, and found out that sometimes I pretend I understand.&lt;/li&gt;
+
+&lt;li&gt;How to make a CSS hovering animated effect that doesn&amp;#8217;t go back after hovering ends. &lt;a href='http://jsfiddle.net/rHpDn/3/'&gt;Here is a nice example.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Success should be celebrated.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Are We There Yet?</title>
     <link rel="alternate" href="http://lipen.co/til/are-we-there-yet.html"/>
@@ -143,26 +177,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Passive knowledge isn&amp;#8217;t worth my time.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>I am Done With it</title>
-    <link rel="alternate" href="http://lipen.co/til/I-am-done.html"/>
-    <id>http://lipen.co/til/I-am-done.html </id>
-    <published>2013-06-28T00:00:00Z</published>
-    <updated>2013-06-28T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Building a presentation with impress.js is like Disneyland - it will never be finished. There is always something you can add or correct. But I am done with &lt;a href='http://impressjs.challengepost.com/'&gt;ChallengePost&lt;/a&gt;. I don&amp;#8217;t want to hear about Google tax evasion any more. This gradient has burned out my eyes. Try to look as it for 9h a day for a week, you will/won&amp;#8217;t see.&lt;/p&gt;
-
-&lt;p&gt;Here it is, my &lt;a href='http://lipen.co/google-tax-evasion-presentation/'&gt;awesome presentation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;How to finish up the project, go out with a friend, do some voluntary work, meet up with part of RubyMonsters team to work on Speakerinnen Liste and cook a dinner in one day.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Censured&lt;/p&gt;</content>
   </entry>
 </feed>
