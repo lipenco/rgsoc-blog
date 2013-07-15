@@ -6,7 +6,7 @@ JavaScript is becoming more domesticated. I made 6 template generators, and it r
 
 I had Skype call with my mentor Chris, who shared with me his golden tip: "code like a Ninja". True Ninja would add one or two lines to the root code and work would be done, but Chris quickly produce and explain also more lame solution (in separate script) without even a drop of sweat sitting in hot New Jersey. I really think it was not too easy to generate slides template in the "snake" grid style like this:
 
-					1st slide, 2ed slide, 3rd slide, 4th slide,
+					1st slide, 2nd slide, 3rd slide, 4th slide,
 					8th slide, 7th slide, 6th slide, 5th slide,
 					9th slide, 10th slide, 11th slide, 12th slide...
 
