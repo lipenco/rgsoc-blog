@@ -10,7 +10,7 @@ I had Skype call with my mentor Chris, who shared with me his golden tip: "code 
 					8th slide, 7th slide, 6th slide, 5th slide,
 					9th slide, 10th slide, 11th slide, 12th slide...
 
-My [Trello Board](https://trello.com/b/Bi7XqDyM/impress-js-summer-of-code) looks like a military proving ground, [GitHub impress repo](https://github.com/lipenco/theme-impress/commit/77a454becafb577d176983b6af1eb59ca19a7fdb#commitcomment-3636545) like my essays form school - so many comments and corrections. If my literature teacher had had as much patience for me as Bartek I would definitely have become a literature teacher. Luck me, he had not. 
+My [Trello Board](https://trello.com/b/Bi7XqDyM/impress-js-summer-of-code) looks like a military proving ground, [GitHub impress repo](https://github.com/lipenco/theme-impress/commit/77a454becafb577d176983b6af1eb59ca19a7fdb#commitcomment-3636545) like my essays form school - so many comments and corrections. If my literature teacher had had so much patience for me like Bartek I would definitely have become a literature teacher. Luck me, he had not. 
 
 
 ### Today I Learned:
