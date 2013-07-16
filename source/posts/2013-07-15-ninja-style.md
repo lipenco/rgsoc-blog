@@ -4,7 +4,7 @@ title: Ninja Style
 
 JavaScript is becoming more domesticated. I made 6 template generators, and it really seems I can contribute to impress.js and make the user's life easier. 
 
-I had Skype a call with my mentor Chris, who shared with me his golden tip: "code like a Ninja." It means to add as little code as possible to do all the magic. It wasn not possible this time, as we couldn't code inside impress.js file, but Chris quickly explained and figured out the solution without a drop of sweat sitting in hot New Jersey. I really think it was not too easy to generate a slide template in the "snake" grid style like this:
+I had Skype a call with my mentor Chris, who shared with me his golden tip: "code like a Ninja." It means to add as little code as possible to do all the magic. It was not possible this time, as we couldn't code inside core impress.js file, but Chris quickly explained and figured out the solution without a drop of sweat. I really think it was not too easy to generate a slide template in the "snake" grid style like this:
 
 					1st slide, 2nd slide, 3rd slide, 4th slide,
 					8th slide, 7th slide, 6th slide, 5th slide,
