@@ -8,7 +8,7 @@ I decided to go back to the programing principles and practice some logic, sexy 
 
 My impress.js generators looks more and more professional. The user can now invoke the function with creates an automated layout with changeable parameters like distance between slides or radius when it comes to circle layouts.
 
-Check out some of my 10 layout generations: [circle layout](http://lipen.co/impress.js-myscript/index-circle-v2.html#/step-1) and [Grid](http://lipen.co/impress.js-myscript/index-snake-grid.html#/step-11).
+Check out some of my 10 layout generations: [circle layout](http://lipen.co/impress.js-myscript/index-circle-v2.html#/step-1) and [grid](http://lipen.co/impress.js-myscript/index-snake-grid.html#/step-11).
 
 
 ### Today I Learned:
