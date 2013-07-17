@@ -5,10 +5,41 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-07-15T00:00:00Z</updated>
+  <updated>2013-07-17T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>School is Deprecated</title>
+    <link rel="alternate" href="http://lipen.co/til/school-is-deprecated.html"/>
+    <id>http://lipen.co/til/school-is-deprecated.html </id>
+    <published>2013-07-17T00:00:00Z</published>
+    <updated>2013-07-17T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I decided to go back to the programing principles and practice some logic, sexy syntaxes and abstract thinking with #C. From today, every day I will spend 70 min, with very a guy from Harvard at &lt;a href='https://www.edx.org/course/harvard-university/cs50x/introduction-computer-science/1022'&gt;CS50 Course&lt;/a&gt;. It is online, it is free, it has a massive number of cool features, among others, it provides you with build in console for coding in #C.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='https://www.edx.org/'&gt;Edx.org&lt;/a&gt; is full of courses I want to do as well, but first thing first. With online resorces like this it&amp;#8217;s just clear that traditional school is deprecated.&lt;/p&gt;
+
+&lt;p&gt;My impress.js generators looks more and more professional. The user can now invoke the function with creates an automated layout with changeable parameters like distance between slides or radius when it comes to circle layouts.&lt;/p&gt;
+
+&lt;p&gt;Check out some of my 10 layout generations: &lt;a href='http://lipen.co/impress.js-myscript/index-circle-v2.html#/step-1'&gt;circle layout&lt;/a&gt; and &lt;a href='http://lipen.co/impress.js-myscript/index-snake-grid.html#/step-11'&gt;Grid&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How to be a role model RGSoC participant and I signed up for IRC discussions.&lt;/li&gt;
+
+&lt;li&gt;How to create invokable functions with changeable parameters.&lt;/li&gt;
+
+&lt;li&gt;Principles of cryptography.&lt;/li&gt;
+
+&lt;li&gt;Going through all daily newsletters about web design and JavaScript takes too long.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Yes, I deserved your Kudo :)&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Ninja Style</title>
     <link rel="alternate" href="http://lipen.co/til/ninja-style.html"/>
@@ -157,30 +188,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: &amp;#8216;Certain things are false, everything else is true&amp;#8217; - &amp;#8216;JavaScript Enlightement&amp;#8217;, p. 91%.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>It Only Looks that Simple</title>
-    <link rel="alternate" href="http://lipen.co/til/it-only-seems-to-be-easy.html"/>
-    <id>http://lipen.co/til/it-only-seems-to-be-easy.html </id>
-    <published>2013-07-02T00:00:00Z</published>
-    <updated>2013-07-02T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;But is is not. &lt;a href='http://lipen.co/theme-impress/theme-index.html#/slide1'&gt;This is what I did today&lt;/a&gt; - it&amp;#8217;s a work in progress for a universal and aesthetic template for the masses.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I can spend 3h choosing and adjusting images - it is kind of annoying to have too many ideas and nice pictures to choose from.&lt;/li&gt;
-
-&lt;li&gt;Photoshop is a terrible trap that caught me and didn&amp;#8217;t want to let me go.&lt;/li&gt;
-
-&lt;li&gt;The first day of &lt;a href='https://ep2013.europython.eu'&gt;EuroPython&lt;/a&gt; was rough for me - just too much Python. But at least it let me go forwrd with my impress.js &amp;#8216;assignments&amp;#8217;.&lt;/li&gt;
-
-&lt;li&gt;Right positioning in impress.js is kind of difficult.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Limoncello does taste like a lemon soap, but it makes you feel so Florentine.&lt;/p&gt;</content>
   </entry>
 </feed>
