@@ -39,7 +39,7 @@ Almost eureka!
 
 So simple!
 
-My code is user-friendly look with [read.me on GitHub](https://github.com/lipenco/impress.js-myscript).
+My code has now nicer user-friendly look with [read.me on GitHub](https://github.com/lipenco/impress.js-myscript).
 
 ### Today I Learned:
 * Writing one code in 5 versions.
