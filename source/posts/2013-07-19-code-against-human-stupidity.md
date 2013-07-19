@@ -2,7 +2,7 @@
 title: Code Against Human Stupidity
 ---
 
-Solving problems without restoring to any help are probably the most rewarding moments in learning process. But just the fact it works, does not mean it is good enough. 
+Solving problems without resorting to any help are probably the most rewarding moments in learning process. But just the fact it works, does not mean it is good enough. 
 What if the user puts the argument which does not make any sense? Seems like my first idea for solution made with `console.log("you are a bad programmer")` is not exactly acceptable.
 
 But I've found better one: 
