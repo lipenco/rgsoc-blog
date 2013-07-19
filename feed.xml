@@ -10,7 +10,7 @@
     <name>Magdalena Lipinska</name>
   </author>
   <entry>
-    <title/>
+    <title>Code Against Human Stupidity</title>
     <link rel="alternate" href="http://lipen.co/til/code-against-human-stupidity.html"/>
     <id>http://lipen.co/til/code-against-human-stupidity.html </id>
     <published>2013-07-19T00:00:00Z</published>
@@ -18,10 +18,7 @@
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;hr /&gt;
-&lt;h2 id='title_code_against_human_stupidity'&gt;title: Code Against Human Stupidity&lt;/h2&gt;
-
-&lt;p&gt;Solving problems without restoring to any help are probably the most rewarding moments in learning process. But just the fact it works, does not mean it is good enough. What if the user puts the argument which does not make any sense? Seems like my first idea for solution made with &lt;code&gt;console.log(&amp;quot;you are a bad programmer&amp;quot;)&lt;/code&gt; is not exactly acceptable.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Solving problems without restoring to any help are probably the most rewarding moments in learning process. But just the fact it works, does not mean it is good enough. What if the user puts the argument which does not make any sense? Seems like my first idea for solution made with &lt;code&gt;console.log(&amp;quot;you are a bad programmer&amp;quot;)&lt;/code&gt; is not exactly acceptable.&lt;/p&gt;
 
 &lt;p&gt;But I&amp;#8217;ve found better one:&lt;/p&gt;
 
