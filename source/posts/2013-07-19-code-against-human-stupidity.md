@@ -7,7 +7,7 @@ What if the user puts the argument which does not make any sense? Seems like my 
 
 But I've found better one: 
 
-distance && distance > 700? distance : distance = 1000;
+`distance && distance > 700? distance : distance = 1000;`
 
 But Bartek wanted something more readable, more simple;
 
