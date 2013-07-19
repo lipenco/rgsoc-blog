@@ -1,4 +1,3 @@
-
 --- 
 title: Code Against Human Stupidity
 ---
