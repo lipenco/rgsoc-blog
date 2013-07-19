@@ -5,10 +5,72 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-07-17T00:00:00Z</updated>
+  <updated>2013-07-19T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title/>
+    <link rel="alternate" href="http://lipen.co/til/code-against-human-stupidity.html"/>
+    <id>http://lipen.co/til/code-against-human-stupidity.html </id>
+    <published>2013-07-19T00:00:00Z</published>
+    <updated>2013-07-19T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;hr /&gt;
+&lt;h2 id='title_code_against_human_stupidity'&gt;title: Code Against Human Stupidity&lt;/h2&gt;
+
+&lt;p&gt;Solving problems without restoring to any help are probably the most rewarding moments in learning process. But just the fact it works, does not mean it is good enough. What if the user puts the argument which does not make any sense? Seems like my first idea for solution made with &lt;code&gt;console.log(&amp;quot;you are a bad programmer&amp;quot;)&lt;/code&gt; is not exactly acceptable.&lt;/p&gt;
+
+&lt;p&gt;But I&amp;#8217;ve found better one:&lt;/p&gt;
+
+&lt;p&gt;distance &amp;amp;&amp;amp; distance &amp;gt; 700? distance : distance = 1000;&lt;/p&gt;
+
+&lt;p&gt;But Bartek wanted something more readable, more simple;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;if (distance &amp;amp;&amp;amp; distance &amp;gt; 700) {
+       distance;
+    }
+    else {
+        distance = 1000;
+    }&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Still not sexy enough;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;if (distance &amp;amp;&amp;amp; distance &amp;gt; 700);
+    else {
+       distance = 1000;
+    }&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Shorter but not better;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;if (!(distance &amp;amp;&amp;amp; distance &amp;gt; 700)) {
+       distance = 1000;
+    }&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Almost eureka!&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;if (!distance || distance &amp;lt; 700) {
+       distance = 1000;
+    }&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;So simple!&lt;/p&gt;
+
+&lt;p&gt;My code is user-friendly look with &lt;a href='https://github.com/lipenco/impress.js-myscript'&gt;read.me on GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Writing one code in 5 versions.&lt;/li&gt;
+
+&lt;li&gt;Thinking shorter and brighter.&lt;/li&gt;
+
+&lt;li&gt;I finished my &lt;a href='http://lipen.co/til-informal-tech-education/'&gt;&amp;#8220;side&amp;#8221; project&lt;/a&gt; for my portfolio. To make the SoundCloud iframe not destroy my loading time was a great challange.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: In 3 months I will be totally employable ;]&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>School is Deprecated</title>
     <link rel="alternate" href="http://lipen.co/til/school-is-deprecated.html"/>
@@ -157,36 +219,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: &lt;a href='http://www.youtube.com/watch?v=yfT-ISOwRtw'&gt;Will never be a summer like this&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Where the Magic and Panic Happen</title>
-    <link rel="alternate" href="http://lipen.co/til/where-the-magic-and-panic-happen.html"/>
-    <id>http://lipen.co/til/where-the-magic-and-panic-happen.html </id>
-    <published>2013-07-04T00:00:00Z</published>
-    <updated>2013-07-04T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Today I touched the guts. It was my JavaScript day. I finished up the &amp;#8220;Javascript Enlighment&amp;#8221; book, but with the feeling that I still don&amp;#8217;t know anything, I sat with John to reviews some impress.js JavaScript code.&lt;/p&gt;
-
-&lt;p&gt;After 2 hours we found ourselves on the 75th line (out of 800). Guys, this is so difficult! Stuff like &amp;#8216;use strict&amp;#8217;, &lt;a href='http://en.wikipedia.org/wiki/Immediately-invoked_function_expression'&gt;IIFE&lt;/a&gt;&amp;#8230; OMG! Guys, it is wild.&lt;/p&gt;
-
-&lt;p&gt;John is invincible: &amp;#8220;Ok, let&amp;#8217;s skip that, I will ask Bartek,&amp;#8221; I said being beaten by the code. &amp;#8220;No, I also want to to understand&amp;#8221;, his striving for knowledge made us slower, me more nervous and him more proud of his teaching skills.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Dealing with impress.js JS code is super difficult.&lt;/li&gt;
-
-&lt;li&gt;Dealing with JS books are super boring and they won&amp;#8217;t teach you JS.&lt;/li&gt;
-
-&lt;li&gt;You should try understand impress.js code because it is wild.&lt;/li&gt;
-
-&lt;li&gt;You should take a nap every 100 lines of impress.js JS code.&lt;/li&gt;
-
-&lt;li&gt;Rotation of crops helps you to stay excited and not to panic: on the side I am doing my &lt;a href='http://lipen.co/til-informal-tech-education/'&gt;friend&amp;#8217;s website&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: &amp;#8216;Certain things are false, everything else is true&amp;#8217; - &amp;#8216;JavaScript Enlightement&amp;#8217;, p. 91%.&lt;/p&gt;</content>
   </entry>
 </feed>
