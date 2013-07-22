@@ -10,7 +10,7 @@ My [Trello Board](https://trello.com/b/Bi7XqDyM/impress-js-summer-of-code) again
 
 ### Today I Learned:
 * Functions in jQuery with callbacks.
-* Difficult words like cubic-bezier.
+* Some difficult words like cubic-bezier.
 * How end() can do for me.
 * How I should refactor the code (almost).
 * Recursion. Debugging. File I/O. Structures. Pointers. Dynamic memory allocation. Heap.
