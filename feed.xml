@@ -5,10 +5,41 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-07-19T00:00:00Z</updated>
+  <updated>2013-07-22T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>I am the Most Productive out of all People I Talked Today on FB.</title>
+    <link rel="alternate" href="http://lipen.co/til/i-am-the-most-productive.html"/>
+    <id>http://lipen.co/til/i-am-the-most-productive.html </id>
+    <published>2013-07-22T00:00:00Z</published>
+    <updated>2013-07-22T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Waiting for new problems and tasks is more tiring than solving them. Every monday they come with the evening Skype call with Bartek.&lt;/p&gt;
+
+&lt;p&gt;During the day I stuffed my time with all kinds of tutorials, conferences talks and articles. Starting day with CS50, than my favorite, because video tutorial for &lt;a href='http://learn.appendto.com/lesson/dom-manipulation-101#118'&gt;JS and JQuery&lt;/a&gt;, &lt;a href='http://vimeo.com/channels/cssday'&gt;CSS conference in Amsterdam&lt;/a&gt; streaming straight to my computer in Rome. A lot of new ideas, inspiration and distraction. And finally comes wht I was waiting for - new challenges, code refactoring, solving small/big problems of impress.js users. Excitement.&lt;/p&gt;
+
+&lt;p&gt;My &lt;a href='https://trello.com/b/Bi7XqDyM/impress-js-summer-of-code'&gt;Trello Board&lt;/a&gt; again looks exactly how I like it.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Functions in jQuery with callbacks.&lt;/li&gt;
+
+&lt;li&gt;Difficult words like cubic-bezier.&lt;/li&gt;
+
+&lt;li&gt;How end() can do for me.&lt;/li&gt;
+
+&lt;li&gt;How I should refactor the code (almost).&lt;/li&gt;
+
+&lt;li&gt;Recursion. Debugging. File I/O. Structures. Pointers. Dynamic memory allocation. Heap.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: I know too little to be incompetent.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Code Against Human Stupidity</title>
     <link rel="alternate" href="http://lipen.co/til/code-against-human-stupidity.html"/>
@@ -191,30 +222,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Vote for &lt;a href='http://impressjs.challengepost.com/submissions/16286-presentation-about-google-convenient-tax-policy'&gt;my presentation&lt;/a&gt;!&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>JavaScript is Eating From my Hand.</title>
-    <link rel="alternate" href="http://lipen.co/til/javascript-is-eating-from-my-hand.html"/>
-    <id>http://lipen.co/til/javascript-is-eating-from-my-hand.html </id>
-    <published>2013-07-06T00:00:00Z</published>
-    <updated>2013-07-06T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Reading JavaScript code out loud, line by line with someone who is able to correct you and explain things is 100 times more helpful than reading books and repeating theory. John said it was fun to explain impress.js to me. I felt sorry for him all these long hours.&lt;/p&gt;
-
-&lt;p&gt;It took longer than expected, but I am kind of proud that I am able to translate this code into words. Still I have a feeling that the path from understanding to writing is long and bumpy.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;My project management is not great (yet), but I don&amp;#8217;t mind reading code in the train on Saturday. I will be ready with all my assignments for my call with Bartek on Monday.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide'&gt;JavaScript Guide by Mozilla&lt;/a&gt; is worth reading.&lt;/li&gt;
-
-&lt;li&gt;I am getting this strange habit, that instead of facebooking to relax I am looking for and staring on GitHub cool open source projects.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: &lt;a href='http://www.youtube.com/watch?v=yfT-ISOwRtw'&gt;Will never be a summer like this&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
