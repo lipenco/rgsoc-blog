@@ -52,8 +52,7 @@ Now turned into 3 functions, way more sexy:
         MoveElementsFromEachOther(distance, elements) ;
     }
 
-Now we have longer, more complicated strucure without any difference in code preformance. Seems like the magic of refactoring is measured is salary of a programmer who know how to do it right ;p
-But taking into account that my scrip genereates 8 defferents layouts I saved a lot of space, memory and boost the redability.
+Now we have a clearer structure without any difference in functionality. Seems like the magic of refactoring is measured is salary of a programmer who know how to do it right ;p But taking into account that my script generates 8 different layouts I saved a lot of space and memory while improving the readability.
 
 ### Today I Learned:
 * The essence of refactoring.
