@@ -55,9 +55,8 @@ Now we have longer, more complicated strucure without any difference in code pre
 But taking into account that my scrip genereates 8 defferents layouts I saved a lot of space, memory and boost the redability.
 
 ### Today I Learned:
-* That functions' names matter.
-* More (functions) is new less.
-* How functions speaks to each other.
+* The essence of refactoring.
+* I am not young enough to know everthing.
 
 _To sum up_:
 "When you sit down and solve the problem, the solution is merely just a first draft" - S. Stefanov, Java Script Patterns.
