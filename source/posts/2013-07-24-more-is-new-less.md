@@ -26,7 +26,7 @@ Once one function like this:
         } else {
             scale = 1;
         }
-}
+    }
 
 
 Now turned into 3 functions, way more sexy:
