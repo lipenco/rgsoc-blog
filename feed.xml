@@ -18,7 +18,7 @@
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;Have you heard of the Single Responsibility Principle? Of course not – “you” don’t exist. I keep forgetting nobody is reading this blog;p. Well, Uncle Bob had a great talk (http://vimeo.com/43592685) about SRP.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Have you heard of the Single Responsibility Principle? Of course not – “you” don’t exist. I keep forgetting nobody is reading this blog;p. Well, Uncle Bob had a &lt;a href='http://vimeo.com/43592685'&gt;great talk&lt;/a&gt; about SRP.&lt;/p&gt;
 
 &lt;p&gt;But I prefer to listen to my friend Mateusz, who has become my unofficial coach. Thanks to him, refactoring is my new favorite topic.&lt;/p&gt;
 
