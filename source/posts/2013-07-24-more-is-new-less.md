@@ -1,5 +1,5 @@
 --- 
-title: I am not Young Enough to Know Everything
+title: More is new less
 ---
 
 Have you heard of Single Responsibility Principle. Of course you don't, because "you" don't exist. I keep forgetting nobody is reading that. Well, Uncle Bob had a [great talk](http://vimeo.com/43592685) about this topic.
@@ -8,14 +8,15 @@ But I prefer my friend Mateusz, who become my unofficial coach. Refactoring is m
 
 Once one function like this:
 
-`function layoutLinear(options) {
-    var distance = options.distance;
-    var elements = document.querySelectorAll(".step");
-    var position = 100;
-    var scale = 1;
-    if (!distance || distance < 900) {
-        distance = 1500;
-    }
+   
+    function layoutLinear(options) {    
+        var distance = options.distance;    
+        var elements = document.querySelectorAll(".step");    
+        var position = 100;    
+        var scale = 1;    
+        if (!distance || distance < 900) {    
+            distance = 1500;    
+    }    
     for (var index = 0; index < elements.length; index++) {
         elements[index].dataset.x = position;
         position = position + distance;
@@ -25,32 +26,34 @@ Once one function like this:
         } else {
             scale = 1;
         }
-    }
-`
+}
+
+
 Now turned into 3 functions, way more sexy:
 
-`
-function MoveElementsFromEachOther(distance, elements) {   
-    var position = parseInt(elements[0].dataset.x);
-    for (var index = 0; index < elements.length; index++) {
-      position = position + distance;
-      elements[index].dataset.x = position; 
-    }
-}
 
-function RescaleEveryTwoElements(scale, elements) {
-    for (var index = 0; index < elements.length; index+=2) {
-      elements[index].dataset.scale = 2; 
+    function MoveElementsFromEachOther(distance, elements) {   
+        var position = parseInt(elements[0].dataset.x);
+        for (var index = 0; index < elements.length; index++) {
+        position = position + distance;
+        elements[index].dataset.x = position; 
+        }
     }
-}
 
-function layoutLinear(distance, scale) {
-      var elements = document.querySelectorAll(".step");
-      elements[0].dataset.x = 0;
-      RescaleEveryTwoElements(scale, elements) ;
-      MoveElementsFromEachOther(distance, elements) ;
-}
-`
+    function RescaleEveryTwoElements(scale, elements) {
+        for (var index = 0; index < elements.length; index+=2) {
+        elements[index].dataset.scale = 2; 
+        }
+    }
+
+    function layoutLinear(distance, scale) {
+        var elements = document.querySelectorAll(".step");
+        elements[0].dataset.x = 0;
+        RescaleEveryTwoElements(scale, elements) ;
+        MoveElementsFromEachOther(distance, elements) ;
+    }
+
+
 Taking into account that my scrip genereates 8 defferents layouts I saved a lot of space, memory and boost the redability.
 
 ### Today I Learned:
