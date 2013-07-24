@@ -72,11 +72,9 @@ function layoutLinear(distance, scale) {
 &lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;That functions&amp;#8217; names matter.&lt;/li&gt;
+&lt;li&gt;The essence of refactoring.&lt;/li&gt;
 
-&lt;li&gt;More (functions) is new less.&lt;/li&gt;
-
-&lt;li&gt;How functions speaks to each other.&lt;/li&gt;
+&lt;li&gt;I am not young enough to know everthing.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: &amp;#8220;When you sit down and solve the problem, the solution is merely just a first draft&amp;#8221; - S. Stefanov, Java Script Patterns.&lt;/p&gt;</content>
