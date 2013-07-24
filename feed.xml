@@ -67,7 +67,7 @@ function layoutLinear(distance, scale) {
     MoveElementsFromEachOther(distance, elements) ;
 }&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Now we have longer, more complicated strucure without any difference in code preformance. Seems like the magic of refactoring is measured is salary of a programmer who know how to do it right ;p But taking into account that my scrip genereates 8 defferents layouts I saved a lot of space, memory and boost the redability.&lt;/p&gt;
+&lt;p&gt;Now we have a clearer structure without any difference in functionality. Seems like the magic of refactoring is measured is salary of a programmer who know how to do it right ;p But taking into account that my script generates 8 different layouts I saved a lot of space and memory while improving the readability.&lt;/p&gt;
 
 &lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
 
