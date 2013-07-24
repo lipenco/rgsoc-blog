@@ -2,7 +2,7 @@
 title: More is the New Less
 ---
 
-Have you heard of the Single Responsibility Principle? Of course not – “you” don’t exist. I keep forgetting nobody is reading this blog;p. Well, Uncle Bob had a great talk (http://vimeo.com/43592685) about SRP.
+Have you heard of the Single Responsibility Principle? Of course not – “you” don’t exist. I keep forgetting nobody is reading this blog;p. Well, Uncle Bob had a [great talk](http://vimeo.com/43592685) about SRP.
 
 But I prefer to listen to my friend Mateusz, who has become my unofficial coach. Thanks to him, refactoring is my new favorite topic.
 
