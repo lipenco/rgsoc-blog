@@ -110,6 +110,27 @@ function layoutLinear(distance, scale) {
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: I know too little to be incompetent.&lt;/p&gt;</content>
   </entry>
   <entry>
+    <title>Substeps to Hell</title>
+    <link rel="alternate" href="http://lipen.co/til/substeps-to-hell.html"/>
+    <id>http://lipen.co/til/substeps-to-hell.html </id>
+    <published>2013-07-20T00:00:00Z</published>
+    <updated>2013-07-20T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This is the crisis time. JavaScript doesn&amp;#8217;t listen to me. My super-cool-brand-new-features -substeps to impress.js don&amp;#8217;t work.&lt;/p&gt;
+
+&lt;p&gt;Too many trials makes me ervous. Whatever it takes, I will make it to work.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Persistance, presistance, persistance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Just another day with JS frustration.&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <title>Code Against Human Stupidity</title>
     <link rel="alternate" href="http://lipen.co/til/code-against-human-stupidity.html"/>
     <id>http://lipen.co/til/code-against-human-stupidity.html </id>
@@ -233,36 +254,5 @@ function layoutLinear(distance, scale) {
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: If I think twice, I will figure it out on the fifth attempt.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Działa! (pol. it works) Hurra, Hurra!</title>
-    <link rel="alternate" href="http://lipen.co/til/dziala.html"/>
-    <id>http://lipen.co/til/dziala.html </id>
-    <published>2013-07-10T00:00:00Z</published>
-    <updated>2013-07-10T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;The end of the theoretical muttering about objects and arrays came with new assignments. Though it has been difficult, step by step, I am preparing a slide position generator. This tasks seems to be as exciting as it is frustrating.&lt;/p&gt;
-
-&lt;p&gt;The first exercise sounds easy: &amp;#8220;Let&amp;#8217;s assume that the HTML for an impress.js presentation is created (all steps) but without &lt;code&gt;data-attribute&lt;/code&gt;s. So steps don&amp;#8217;t have any position defined in HTML. (..) Write a script that runs before impress.init() that adds some positions to all steps. (..).&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;I was jumping for happiness when my simple &lt;a href='https://github.com/lipenco/impress.js-myscript'&gt;for loop&lt;/a&gt; worked.&lt;/p&gt;
-
-&lt;p&gt;I had a nice talk with my friend, an experienced developer. He tried hard to persuade me to start with Java or C#. In his opinion, JavaScript is not the right place to start: it is difficult to debug and it is hard to learn all the programming logic in the browser. &amp;#8220;The language is not important, abstract thinking and code writing are skills you need now.&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;I am thinking seriously about getting back to the &lt;a href='https://www.edx.org/course/harvard-university/cs50x/introduction-computer-science/1022'&gt;CS50x&lt;/a&gt; computer science course from Harvard that I started a long time ago and never finished. It was just too painful.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Thanks to Bartek I understood that impress.js is not listening to any code I am writing outside this function, which wasn&amp;#8217;t too obvious for me.&lt;/li&gt;
-
-&lt;li&gt;He taught me many other things, and found out that sometimes I pretend I understand.&lt;/li&gt;
-
-&lt;li&gt;How to make a CSS hovering animated effect that doesn&amp;#8217;t go back after hovering ends. &lt;a href='http://jsfiddle.net/rHpDn/3/'&gt;Here is a nice example.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Success should be celebrated.&lt;/p&gt;</content>
   </entry>
 </feed>
