@@ -1,0 +1,13 @@
+--- 
+title: Leave her Alone - on Effective Teaching Practices
+---
+
+John is right - it is better to write code 10 (100?) times slower without any help, than just ask somebody for help and get it done without any effort.
+
+That was the case with my 'substeps'. While waiting for a call with my mentor Chris I proudly figured out the [code](https://github.com/lipenco/impress.js-substeps) on my own. Let's see if I can do a step forward with further refactoring of my layouts.
+
+### Today I Learned:
+* I think it is only now that I understand power and use of indexes.
+
+_To sum up_:
+Cannot wait for today's call with Bartek. Time for testing.
