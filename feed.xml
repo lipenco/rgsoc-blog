@@ -5,10 +5,31 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-07-29T00:00:00Z</updated>
+  <updated>2013-07-30T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>Leave her Alone - on Effective Teaching Practices</title>
+    <link rel="alternate" href="http://lipen.co/til/leave-her-alone.html"/>
+    <id>http://lipen.co/til/leave-her-alone.html </id>
+    <published>2013-07-30T00:00:00Z</published>
+    <updated>2013-07-30T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;John is right - it is better to write code 10 (100?) times slower without any help, than just ask somebody for help and get it done without any effort.&lt;/p&gt;
+
+&lt;p&gt;That was the case with my &amp;#8216;substeps&amp;#8217;. While waiting for a call with my mentor Chris I proudly figured out the &lt;a href='https://github.com/lipenco/impress.js-substeps'&gt;code&lt;/a&gt; on my own. Let&amp;#8217;s see if I can do a step forward with further refactoring of my layouts.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I think it is only now that I understand power and use of indexes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Cannot wait for today&amp;#8217;s call with Bartek. Time for testing.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Substeps to Hell</title>
     <link rel="alternate" href="http://lipen.co/til/substeps-to-hell.html"/>
@@ -219,40 +240,5 @@ function layoutLinear(distance, scale) {
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Yes, I deserved your Kudo :)&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Ninja Style</title>
-    <link rel="alternate" href="http://lipen.co/til/ninja-style.html"/>
-    <id>http://lipen.co/til/ninja-style.html </id>
-    <published>2013-07-15T00:00:00Z</published>
-    <updated>2013-07-15T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;JavaScript is becoming more domesticated. I made 6 template generators, and it really seems I can contribute to impress.js and make the user&amp;#8217;s life easier.&lt;/p&gt;
-
-&lt;p&gt;I had Skype a call with my mentor Chris, who shared with me his golden tip: &amp;#8220;code like a Ninja.&amp;#8221; It means to add as little code as possible to do all the magic. It was not possible this time, as we couldn&amp;#8217;t code inside core impress.js file, but Chris quickly explained and figured out the solution without a drop of sweat. I really think it was not too easy to generate a slide template in the &amp;#8220;snake&amp;#8221; grid style like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;				1st slide, 2nd slide, 3rd slide, 4th slide,
-				8th slide, 7th slide, 6th slide, 5th slide,
-				9th slide, 10th slide, 11th slide, 12th slide...&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;My &lt;a href='https://trello.com/b/Bi7XqDyM/impress-js-summer-of-code'&gt;Trello Board&lt;/a&gt; looks like a military proving ground, my fork of &lt;a href='https://github.com/lipenco/theme-impress/commit/77a454becafb577d176983b6af1eb59ca19a7fdb#commitcomment-3636545'&gt;impress&lt;/a&gt; like my essays form school - so many comments and corrections. If my literature teacher had had so much patience for me like Bartek I would definitely have become a literature teacher. Luck me, he was impatient.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;How to use nested loops to reverse slides direction.&lt;/li&gt;
-
-&lt;li&gt;How to make JavaScript understand what I want.&lt;/li&gt;
-
-&lt;li&gt;Small parenthesis can make you feel stupid, if you don&amp;#8217;t add them in the right place.&lt;/li&gt;
-
-&lt;li&gt;Nice tools like &lt;a href='http://jsbeautifier.org/'&gt;jsbeautifier&lt;/a&gt; and &lt;a href='http://jshint.com/'&gt;JS Hint&lt;/a&gt;.&lt;/li&gt;
-
-&lt;li&gt;Watermelon has 300 kcal for 1kg.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: If I think twice, I will figure it out on the fifth attempt.&lt;/p&gt;</content>
   </entry>
 </feed>
