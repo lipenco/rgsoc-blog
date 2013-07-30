@@ -20,7 +20,7 @@
     </author>
     <content type="html">&lt;p&gt;John is right - it is better to write code 10 (100?) times slower without any help, than just ask somebody for help and get it done without any effort.&lt;/p&gt;
 
-&lt;p&gt;That was the case with my &amp;#8216;substeps&amp;#8217;. While waiting for a call with my mentor Chris I proudly figured out the &lt;a href='https://github.com/lipenco/impress.js-substeps'&gt;code&lt;/a&gt; on my own. Let&amp;#8217;s see if I can do a step forward with further refactoring of my layouts.&lt;/p&gt;
+&lt;p&gt;That was the case with my &amp;#8216;substeps&amp;#8217;. While waiting for a call with my mentor Chris I proudly figured out the &lt;a href='https://github.com/lipenco/impress.js-substeps'&gt;code&lt;/a&gt; on my own. Let&amp;#8217;s see if I can make a step forward with further refactoring of my layouts.&lt;/p&gt;
 
 &lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
 
