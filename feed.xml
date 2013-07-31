@@ -5,10 +5,31 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-07-30T00:00:00Z</updated>
+  <updated>2013-07-31T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>On Tests</title>
+    <link rel="alternate" href="http://lipen.co/til/on-test.html"/>
+    <id>http://lipen.co/til/on-test.html </id>
+    <published>2013-07-31T00:00:00Z</published>
+    <updated>2013-07-31T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Never was so much coded by so many to achieve so little.&lt;/p&gt;
+
+&lt;p&gt;Fortunately on my &lt;a href='https://trello.com/b/Bi7XqDyM/impress-js-summer-of-code'&gt;to do list&lt;/a&gt; there are way more assignments to complete than testing. I should focus on writing script for automated animations with data-duration for each slide, animated effect for subsets, script for relative steps positioning and event listeners.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Solving problem in the night takes 7 times more than in the morningnext day. Mateusz insist on me to get back to coding principles. Try, how quickly you can get 10 out of &lt;a href='http://jsbin.com/ikoveg/5/edit'&gt;this code&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: SPARTA!&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Leave her Alone - on Effective Teaching Practices</title>
     <link rel="alternate" href="http://lipen.co/til/leave-her-alone.html"/>
@@ -209,36 +230,5 @@ function layoutLinear(distance, scale) {
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: In 3 months I will be totally employable ;]&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>School is Deprecated</title>
-    <link rel="alternate" href="http://lipen.co/til/school-is-deprecated.html"/>
-    <id>http://lipen.co/til/school-is-deprecated.html </id>
-    <published>2013-07-17T00:00:00Z</published>
-    <updated>2013-07-17T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;I decided to go back to the programing principles and practice some logic, sexy syntaxes and abstract thinking with #C. From today, every day I will spend 70 min, with very a guy from Harvard at &lt;a href='https://www.edx.org/course/harvard-university/cs50x/introduction-computer-science/1022'&gt;CS50 Course&lt;/a&gt;. It is online, it is free, it has a massive number of cool features, among others, it provides you with build in console for coding in #C.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='https://www.edx.org/'&gt;Edx.org&lt;/a&gt; is full of courses I want to do as well, but first thing first. With online resorces like this it&amp;#8217;s just clear that traditional school is deprecated.&lt;/p&gt;
-
-&lt;p&gt;My impress.js generators looks more and more professional. The user can now invoke the function with creates an automated layout with changeable parameters like distance between slides or radius when it comes to circle layouts.&lt;/p&gt;
-
-&lt;p&gt;Check out some of my 10 layout generations: &lt;a href='http://lipen.co/impress.js-myscript/index-circle-v2.html#/step-1'&gt;circle layout&lt;/a&gt; and &lt;a href='http://lipen.co/impress.js-myscript/index-snake-grid.html#/step-11'&gt;grid&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;How to be a role model RGSoC participant and I signed up for IRC discussions.&lt;/li&gt;
-
-&lt;li&gt;How to create invokable functions with changeable parameters.&lt;/li&gt;
-
-&lt;li&gt;Principles of cryptography.&lt;/li&gt;
-
-&lt;li&gt;Going through all daily newsletters about web design and JavaScript takes too long.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Yes, I deserved your Kudo :)&lt;/p&gt;</content>
   </entry>
 </feed>
