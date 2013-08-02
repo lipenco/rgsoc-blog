@@ -5,10 +5,37 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-07-31T00:00:00Z</updated>
+  <updated>2013-08-02T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>Such a Product Developer of Me</title>
+    <link rel="alternate" href="http://lipen.co/til/such-product-developer-of-me.html"/>
+    <id>http://lipen.co/til/such-product-developer-of-me.html </id>
+    <published>2013-08-02T00:00:00Z</published>
+    <updated>2013-08-02T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;It is arguable if impress.js needs substeps for presentations to build suspense and not reveal everything at first glance .Vox populi on GitHub said yes to substeps, Bartek said it is powerpoitish and impress.js should be kept simple.&lt;/p&gt;
+
+&lt;p&gt;For me substeps are just another occasion to write my own JavaScript code and implement it with CSS animations.&lt;/p&gt;
+
+&lt;p&gt;You can see &lt;a href='http://lipen.co/impress.js-substeps/'&gt;my work done here.&lt;/a&gt; with implemented event listeners for keyup.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#8217;s move to another task - build the script with will &amp;#8220;play&amp;#8221; presentation and changing slides according to data-duration attributes.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;More about event listeners, more about switch&lt;/li&gt;
+
+&lt;li&gt;And some Rails (rubymonsters in progress).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Everything has been already invented, so be happy we have everything.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>On Tests</title>
     <link rel="alternate" href="http://lipen.co/til/on-test.html"/>
@@ -171,64 +198,5 @@ function layoutLinear(distance, scale) {
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: I know too little to be incompetent.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Code Against Human Stupidity</title>
-    <link rel="alternate" href="http://lipen.co/til/code-against-human-stupidity.html"/>
-    <id>http://lipen.co/til/code-against-human-stupidity.html </id>
-    <published>2013-07-19T00:00:00Z</published>
-    <updated>2013-07-19T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Solving problems without resorting to any help are probably the most rewarding moments in learning process. But just the fact it works, does not mean it is good enough. What if the user puts the argument which does not make any sense? Seems like my first idea for - &lt;code&gt;console.log(&amp;quot;you are a bad programmer&amp;quot;)&lt;/code&gt; is not exactly acceptable.&lt;/p&gt;
-
-&lt;p&gt;But I&amp;#8217;ve found better one:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;distance &amp;amp;&amp;amp; distance &amp;gt; 700? distance : distance = 1000;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;But Bartek wanted something more readable, more simple;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;if (distance &amp;amp;&amp;amp; distance &amp;gt; 700) {
-       distance;
-    }
-    else {
-        distance = 1000;
-    }&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Still not sexy enough;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;if (distance &amp;amp;&amp;amp; distance &amp;gt; 700);
-    else {
-       distance = 1000;
-    }&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Shorter but not better;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;if (!(distance &amp;amp;&amp;amp; distance &amp;gt; 700)) {
-       distance = 1000;
-    }&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Almost eureka!&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;if (!distance || distance &amp;lt; 700) {
-       distance = 1000;
-    }&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;So simple!&lt;/p&gt;
-
-&lt;p&gt;My code has now nicer, user-friendly look with &lt;a href='https://github.com/lipenco/impress.js-myscript'&gt;read.me on GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Writing one code in 5 versions.&lt;/li&gt;
-
-&lt;li&gt;Thinking shorter and brighter.&lt;/li&gt;
-
-&lt;li&gt;I finished my &lt;a href='http://lipen.co/til-informal-tech-education/'&gt;&amp;#8220;side&amp;#8221; project&lt;/a&gt; for my portfolio. To make the SoundCloud iframe not destroy my loading time was a great challange.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: In 3 months I will be totally employable ;]&lt;/p&gt;</content>
   </entry>
 </feed>
