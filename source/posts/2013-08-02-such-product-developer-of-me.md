@@ -2,9 +2,9 @@
 title: Such a Product Developer of Me
 ---
 
-It is arguable if impress.js needs substeps for presentations to build suspense and not reveal everything at first glance .Vox populi on GitHub said yes to substeps, Bartek said it is powerpoitish and impress.js should be kept simple.
+It is arguable if impress.js needs substeps for presentations for building suspense and not revealing all content at the first glance. Vox populi on GitHub said yes to substeps, Bartek said it is 'powerpoitish' and impress.js should be kept simple.
 
-For me substeps are just another occasion to write my own JavaScript code and implement it with CSS animations.
+For me substeps feature is just another occasion to write my own JavaScript code and implement it with CSS animations.
 
 You can see [my work done here.](http://lipen.co/impress.js-substeps/) with implemented event listeners for keyup.
 
