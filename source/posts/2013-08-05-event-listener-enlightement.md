@@ -10,3 +10,6 @@ My success for today is the [automated presentation script](https://github.com/l
 * The difference between [setTimeout and setInterval](http://javascript.about.com/library/blstvsi.htm).
 * How to make event listeners listen to me.
 * How to use typeof
+
+_To sum up_:
+No drama
