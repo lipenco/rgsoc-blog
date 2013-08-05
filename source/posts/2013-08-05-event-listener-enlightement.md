@@ -1,0 +1,12 @@
+--- 
+title: Event Listeners Enlightenment
+---
+
+It comes to me usually late as for a front-end developer but it comes with a great happiness. Usually with extensive shooting code in the dark. But it's better than asking coaches for right solution. 
+
+My success for today is the [automated presentation script](https://github.com/lipenco/impress.js-automated-presentation/blob/gh-pages/index.html) with data-duration attributes to enable user to set specific time for the slide display. Data-duration is the argument for the event listener function 'moving' the presentation with set intervals. 
+
+### Today I Learned:
+* The difference between [setTimeout and setInterval](http://javascript.about.com/library/blstvsi.htm).
+* How to make event listeners listen to me.
+* How to use typeof
