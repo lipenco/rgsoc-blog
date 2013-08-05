@@ -5,10 +5,35 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-08-02T00:00:00Z</updated>
+  <updated>2013-08-05T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>Event Listeners Enlightenment</title>
+    <link rel="alternate" href="http://lipen.co/til/event-listener-enlightement.html"/>
+    <id>http://lipen.co/til/event-listener-enlightement.html </id>
+    <published>2013-08-05T00:00:00Z</published>
+    <updated>2013-08-05T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;It comes to me usually late as for a front-end developer but it comes with a great happiness. Usually with extensive shooting code in the dark. But it&amp;#8217;s better than asking coaches for right solution.&lt;/p&gt;
+
+&lt;p&gt;My success for today is the &lt;a href='https://github.com/lipenco/impress.js-automated-presentation/blob/gh-pages/index.html'&gt;automated presentation script&lt;/a&gt; with data-duration attributes to enable user to set specific time for the slide display. Data-duration is the argument for the event listener function &amp;#8216;moving&amp;#8217; the presentation with set intervals.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The difference between &lt;a href='http://javascript.about.com/library/blstvsi.htm'&gt;setTimeout and setInterval&lt;/a&gt;.&lt;/li&gt;
+
+&lt;li&gt;How to make event listeners listen to me.&lt;/li&gt;
+
+&lt;li&gt;How to use typeof&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: No drama&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Such a Product Developer of Me</title>
     <link rel="alternate" href="http://lipen.co/til/such-product-developer-of-me.html"/>
@@ -167,36 +192,5 @@ function layoutLinear(distance, scale) {
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: &amp;#8220;When you sit down and solve the problem, the solution is merely just a first draft&amp;#8221; - S. Stefanov, Java Script Patterns.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>I am the Most Productive out of all People I Talked Today on FB.</title>
-    <link rel="alternate" href="http://lipen.co/til/i-am-the-most-productive.html"/>
-    <id>http://lipen.co/til/i-am-the-most-productive.html </id>
-    <published>2013-07-22T00:00:00Z</published>
-    <updated>2013-07-22T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Waiting for new problems and tasks is more tiring than solving them. Every monday they come with the evening Skype call with Bartek.&lt;/p&gt;
-
-&lt;p&gt;During the day I stuffed my time with all kinds of tutorials, conferences talks and articles. Starting day with CS50, than my favorite, because video tutorial for &lt;a href='http://learn.appendto.com/lesson/dom-manipulation-101#118'&gt;JS and JQuery&lt;/a&gt;, &lt;a href='http://vimeo.com/channels/cssday'&gt;CSS conference in Amsterdam&lt;/a&gt; streaming straight to my computer in Rome. A lot of new ideas, inspiration and distraction. And finally comes what I was waiting for - new challenges, code refactoring, solving small/big problems of impress.js users. Excitement.&lt;/p&gt;
-
-&lt;p&gt;My &lt;a href='https://trello.com/b/Bi7XqDyM/impress-js-summer-of-code'&gt;Trello Board&lt;/a&gt; again looks exactly how I like it.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Functions in jQuery with callbacks.&lt;/li&gt;
-
-&lt;li&gt;Some difficult words like cubic-bezier.&lt;/li&gt;
-
-&lt;li&gt;How end() can do for me.&lt;/li&gt;
-
-&lt;li&gt;How I should refactor the code (almost).&lt;/li&gt;
-
-&lt;li&gt;Recursion. Debugging. File I/O. Structures. Pointers. Dynamic memory allocation. Heap.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: I know too little to be incompetent.&lt;/p&gt;</content>
   </entry>
 </feed>
