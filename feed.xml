@@ -5,10 +5,35 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-08-05T00:00:00Z</updated>
+  <updated>2013-08-08T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>Tests and distractions</title>
+    <link rel="alternate" href="http://lipen.co/til/tests.html"/>
+    <id>http://lipen.co/til/tests.html </id>
+    <published>2013-08-08T00:00:00Z</published>
+    <updated>2013-08-08T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I have summer romance with &lt;a href='http://pivotal.github.io/jasmine/'&gt;Jasmine&lt;/a&gt; and QUnit. Writing sample test.&lt;/p&gt;
+
+&lt;p&gt;When I am tired I am getting back to my unsolved problem with relative steps feature.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Principles of testing.&lt;/li&gt;
+
+&lt;li&gt;Magic of parseInt()&lt;/li&gt;
+
+&lt;li&gt;Using my new toy - tablet :) Now I am fully quipped for my fron-end development with design inclinations. It is kind of distracting!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Cannot wait for my relative substeps to start working.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Event Listeners Enlightenment</title>
     <link rel="alternate" href="http://lipen.co/til/event-listener-enlightement.html"/>
@@ -123,74 +148,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Just another day with JS frustration.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>More is the New Less</title>
-    <link rel="alternate" href="http://lipen.co/til/more-is-new-less.html"/>
-    <id>http://lipen.co/til/more-is-new-less.html </id>
-    <published>2013-07-24T00:00:00Z</published>
-    <updated>2013-07-24T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Have you heard of the Single Responsibility Principle? Of course not – “you” don’t exist. I keep forgetting nobody is reading this blog;p. Well, Uncle Bob had a &lt;a href='http://vimeo.com/43592685'&gt;great talk&lt;/a&gt; about SRP.&lt;/p&gt;
-
-&lt;p&gt;But I prefer to listen to my friend Mateusz, who has become my unofficial coach. Thanks to him, refactoring is my new favorite topic.&lt;/p&gt;
-
-&lt;p&gt;Once one function like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;function layoutLinear(options) {    
-    var distance = options.distance;    
-    var elements = document.querySelectorAll(&amp;quot;.step&amp;quot;);    
-    var position = 100;    
-    var scale = 1;    
-    if (!distance || distance &amp;lt; 900) {    
-        distance = 1500;    
-}    
-for (var index = 0; index &amp;lt; elements.length; index++) {
-    elements[index].dataset.x = position;
-    position = position + distance;
-    elements[index].dataset.scale = scale;
-    if (index % 2 === 0) {
-        scale = 2;
-    } else {
-        scale = 1;
-    }
-}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now turned into 3 functions, way more sexy:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;function MoveElementsFromEachOther(distance, elements) {   
-    var position = parseInt(elements[0].dataset.x);
-    for (var index = 0; index &amp;lt; elements.length; index++) {
-    position = position + distance;
-    elements[index].dataset.x = position; 
-    }
-}
-
-function RescaleEveryTwoElements(scale, elements) {
-    for (var index = 0; index &amp;lt; elements.length; index+=2) {
-    elements[index].dataset.scale = 2; 
-    }
-}
-
-function layoutLinear(distance, scale) {
-    var elements = document.querySelectorAll(&amp;quot;.step&amp;quot;);
-    elements[0].dataset.x = 0;
-    RescaleEveryTwoElements(scale, elements) ;
-    MoveElementsFromEachOther(distance, elements) ;
-}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now we have a clearer structure without any difference in functionality. Seems like the magic of refactoring is measured is salary of a programmer who know how to do it right ;p But taking into account that my script generates 8 different layouts I saved a lot of space and memory while improving the readability.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The essence of refactoring.&lt;/li&gt;
-
-&lt;li&gt;I am not young enough to know everthing.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: &amp;#8220;When you sit down and solve the problem, the solution is merely just a first draft&amp;#8221; - S. Stefanov, Java Script Patterns.&lt;/p&gt;</content>
   </entry>
 </feed>
