@@ -1,4 +1,4 @@
--- --- 
+--- 
 title: My New Friend - Console
 ---
 
