@@ -10,7 +10,7 @@
     <name>Magdalena Lipinska</name>
   </author>
   <entry>
-    <title/>
+    <title>My New Friend - Console</title>
     <link rel="alternate" href="http://lipen.co/til/my-new-friend-console.html"/>
     <id>http://lipen.co/til/my-new-friend-console.html </id>
     <published>2013-08-09T00:00:00Z</published>
@@ -18,10 +18,7 @@
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;hr /&gt;
-&lt;h2 id='title_my_new_friend__console'&gt;title: My New Friend - Console&lt;/h2&gt;
-
-&lt;p&gt;One month of intensive Java Code writing and only now I discovered how helpful console in the browser can be.&lt;/p&gt;
+    <content type="html">&lt;p&gt;One month of intensive Java Code writing and only now I discovered how helpful console in the browser can be.&lt;/p&gt;
 
 &lt;p&gt;Problematic relative positioning became quite simple, all errors understandable and solvable.Now my code puts the next slide with relative data attributes like data-x=&amp;#8221;+1000&amp;#8221; 1000 px ahead of the previous step. &lt;a href='https://github.com/lipenco/impress.js-relative-positioning/blob/gh-pages/js/relativepositioning.js'&gt;What a nice feature&lt;/a&gt;.&lt;/p&gt;
 
