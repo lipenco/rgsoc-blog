@@ -58,6 +58,75 @@
 
   <div class="row">
   <div class="span6">
+  <h2><a href="../../code-against-human-stupidity.html">Code Against Human Stupidity</a> <em> <small>Jul 19</em></small></h2>
+</div>
+<div class="span4 kudo">
+  <figure class="kudo kudoable" data-id="/code-against-human-stupidity.html">
+      <a class="kudobject">
+        <div class="opening"><div class="circle">&nbsp;</div></div>
+      </a>
+      <a href="#kudo" class="count">
+        <span class="num">0</span>
+        <span class="txt">Kudos</span>
+      </a>
+    </figure>
+  </div>
+</div>
+
+<div class="heading">  </div>
+
+<p>Solving problems without resorting to any help are probably the most rewarding moments in learning process. But just the fact it works, does not mean it is good enough. What if the user puts the argument which does not make any sense? Seems like my first idea for - <code>console.log(&quot;you are a bad programmer&quot;)</code> is not exactly acceptable.</p>
+
+<p>But I&#8217;ve found better one:</p>
+
+<p><code>distance &amp;&amp; distance &gt; 700? distance : distance = 1000;</code></p>
+
+<p>But Bartek wanted something more readable, more simple;</p>
+
+<p><code>if (distance &amp;&amp; distance &gt; 700) {
+       distance;
+    }
+    else {
+        distance = 1000;
+    }</code></p>
+
+<p>Still not sexy enough;</p>
+
+<p><code>if (distance &amp;&amp; distance &gt; 700);
+    else {
+       distance = 1000;
+    }</code></p>
+
+<p>Shorter but not better;</p>
+
+<p><code>if (!(distance &amp;&amp; distance &gt; 700)) {
+       distance = 1000;
+    }</code></p>
+
+<p>Almost eureka!</p>
+
+<p><code>if (!distance || distance &lt; 700) {
+       distance = 1000;
+    }</code></p>
+
+<p>So simple!</p>
+
+<p>My code has now nicer, user-friendly look with <a href='https://github.com/lipenco/impress.js-myscript'>read.me on GitHub</a>.</p>
+
+<h3 id='today_i_learned'>Today I Learned:</h3>
+
+<ul>
+<li>Writing one code in 5 versions.</li>
+
+<li>Thinking shorter and brighter.</li>
+
+<li>I finished my <a href='http://lipen.co/til-informal-tech-education/'>&#8220;side&#8221; project</a> for my portfolio. To make the SoundCloud iframe not destroy my loading time was a great challange.</li>
+</ul>
+
+<p><em>To sum up</em>: In 3 months I will be totally employable ;]</p>
+  <a data-disqus-identifier="/code-against-human-stupidity.html" href="../../code-against-human-stupidity.html#disqus_thread">Comments</a>
+  <div class="row">
+  <div class="span6">
   <h2><a href="../../school-is-deprecated.html">School is Deprecated</a> <em> <small>Jul 17</em></small></h2>
 </div>
 <div class="span4 kudo">
@@ -399,43 +468,6 @@
 
 <p><em>To sum up</em>: Censured</p>
   <a data-disqus-identifier="/I-am-done.html" href="../../I-am-done.html#disqus_thread">Comments</a>
-  <div class="row">
-  <div class="span6">
-  <h2><a href="../../bright-project-future.html">Bright Project Future, Seen in 3D</a> <em> <small>Jun 27</em></small></h2>
-</div>
-<div class="span4 kudo">
-  <figure class="kudo kudoable" data-id="/bright-project-future.html">
-      <a class="kudobject">
-        <div class="opening"><div class="circle">&nbsp;</div></div>
-      </a>
-      <a href="#kudo" class="count">
-        <span class="num">0</span>
-        <span class="txt">Kudos</span>
-      </a>
-    </figure>
-  </div>
-</div>
-
-<div class="heading">  </div>
-
-<p>We planned, we discussed, and now I know what I don&#8217;t know, much better. We set our goal for the summer project clear and simple: make impress.js easy to use for less tech savvy <code>||</code> lazy people. I&#8217;ll need to boost my CSS3 and JavaScript skills in order to achieve this goal. But the most important thing I learned from my first call with my mentor is that he is exactly the person I need and want to work with. Dedicated and willing to share his knowledge. &#8220;I don&#8217;t want to limit my role as a mentor to reviewing the code and setting tasks for you, I am happy to teach you stuff,&#8221; he said. Just perfect.</p>
-
-<p>We are going to use a <a href='https://trello.com/board/impress-js-summer-of-code/51bee39938cdf46401002f4e'>Trello board</a> to manage the chaos. Feel more than welcome to spy on this stuff. Knowing you&#8217;re watching will make me more ambitious even though I probably wouldn&#8217;t survive working any more each day.</p>
-
-<p>I planned to continue on reading my favourite bed story about the omnipotent JavaScript and <a href='http://www.amazon.com/dp/1849696489'>book about impress.js</a>, but I just spent all my time on preparing my presentation testing out animations and sub-step features.</p>
-
-<h3 id='today_i_learned'>Today I Learned:</h3>
-
-<ul>
-<li>I discovered a wonderful framework: <a href='http://daneden.me/animate/'>animate.css</a> and a hidden gem, <a href='https://github.com/tehfoo/impress.js'>impress.js - sub-steps</a>, that provides navigation sub-steps for presentations. I am curious what keeps Bartek from merging this code.</li>
-
-<li>jQuery documentation is the least helpful crap I have seen.</li>
-
-<li>Being the owner of popular open source project is like a full time job – judging by the number of discussion and GitHub issues Bartek to responds to.</li>
-</ul>
-
-<p><em>To sum up</em>: Searching for ready to use coding solutions sux but at least I found <a href='http://pudelekx.pl/na-bahamach-jest-plaza-dla-swin-7466'>this!</a>.</p>
-  <a data-disqus-identifier="/bright-project-future.html" href="../../bright-project-future.html#disqus_thread">Comments</a>
 
   
     <p><a href="../3/">Next page</a></p>

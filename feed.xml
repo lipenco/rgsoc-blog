@@ -5,10 +5,35 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-08-09T00:00:00Z</updated>
+  <updated>2013-08-13T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>New Tools in my Front End Pocket</title>
+    <link rel="alternate" href="http://lipen.co/til/new-tools-Ajax.html"/>
+    <id>http://lipen.co/til/new-tools-Ajax.html </id>
+    <published>2013-08-13T00:00:00Z</published>
+    <updated>2013-08-13T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Yesterday I finished my &lt;a href='https://github.com/lipenco/impress.js-tests'&gt;assignments with test&lt;/a&gt; - writing them in two frameworks: Jasmine and Qtest and I have a feeling I made a step forward. I was sceptical at the beginning, but now I see some potential in this tool.&lt;/p&gt;
+
+&lt;p&gt;Today I will focus on Ajax. It has nothing to do with impress.js, since it does not communicate with the server but the goal of my 3-month RgSoC is to make a &amp;#8216;true&amp;#8217; programmer form me. This is why without Ajax my Javascript path is incomplete.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How to run and pass Jasmine and Qtest tests.&lt;/li&gt;
+
+&lt;li&gt;Studying Ajax in progress.&lt;/li&gt;
+
+&lt;li&gt;I am learning Russian letters from my mistakes - instead of milk, I bought a kefir. Kind of like my JavaScript learning process. ;p&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Waiting for Bartek to get back from vacations.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>My New Friend - Console</title>
     <link rel="alternate" href="http://lipen.co/til/my-new-friend-console.html"/>
@@ -129,26 +154,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: SPARTA!&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Leave her Alone - on Effective Teaching Practices</title>
-    <link rel="alternate" href="http://lipen.co/til/leave-her-alone.html"/>
-    <id>http://lipen.co/til/leave-her-alone.html </id>
-    <published>2013-07-30T00:00:00Z</published>
-    <updated>2013-07-30T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;John is right - it is better to write code 10 (100?) times slower without any help, than just ask somebody for help and get it done without any effort.&lt;/p&gt;
-
-&lt;p&gt;That was the case with my &amp;#8216;substeps&amp;#8217;. While waiting for a call with my mentor Chris I proudly figured out the &lt;a href='https://github.com/lipenco/impress.js-substeps'&gt;code&lt;/a&gt; on my own. Let&amp;#8217;s see if I can make a step forward with further refactoring of my layouts.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I think it is only now that I understand power and use of indexes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Cannot wait for today&amp;#8217;s call with Bartek. Time for testing.&lt;/p&gt;</content>
   </entry>
 </feed>
