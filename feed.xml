@@ -5,10 +5,39 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-08-13T00:00:00Z</updated>
+  <updated>2013-08-15T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>Let's Fix my Mess Up</title>
+    <link rel="alternate" href="http://lipen.co/til/lets-fix-my-mess-up.html"/>
+    <id>http://lipen.co/til/lets-fix-my-mess-up.html </id>
+    <published>2013-08-15T00:00:00Z</published>
+    <updated>2013-08-15T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Today is the fixing day. Bartek reviewed my recent code and it turned out I have a lot code to polish up. Attention to details is not my primary virtue.&lt;/p&gt;
+
+&lt;p&gt;Anyways, it seems like I built all functionalities user may want to build his/her presentation so it is time to design the way my code will be used.&lt;/p&gt;
+
+&lt;p&gt;We are thinking about web application with html code generator, where user can choose features he/her wants and download pre-made presentation. Awesome, isn&amp;#8217;t it :) Working beyond qualification is probably the most exciting thing in all IT professions.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What I already knew - I need to focus more on details.&lt;/li&gt;
+
+&lt;li&gt;(Yesterday) some Rails for sport and fun.&lt;/li&gt;
+
+&lt;li&gt;(Yesterday) Ajax for sport, fun and glory.&lt;/li&gt;
+
+&lt;li&gt;All this substring() shit which made me nervous.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: It is kind of frustrating when John doesn&amp;#8217;t want/cannot help me right away when I am asking him to, but it is so much nicer to say: &amp;#8220;I don&amp;#8217;t need you, problem&amp;#8217;s solved&amp;#8221;.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>New Tools in my Front End Pocket</title>
     <link rel="alternate" href="http://lipen.co/til/new-tools-Ajax.html"/>
@@ -133,26 +162,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Everything has been already invented, so be happy we have everything.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>On Tests</title>
-    <link rel="alternate" href="http://lipen.co/til/on-test.html"/>
-    <id>http://lipen.co/til/on-test.html </id>
-    <published>2013-07-31T00:00:00Z</published>
-    <updated>2013-07-31T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Never was so much coded by so many to achieve so little.&lt;/p&gt;
-
-&lt;p&gt;Fortunately on my &lt;a href='https://trello.com/b/Bi7XqDyM/impress-js-summer-of-code'&gt;to do list&lt;/a&gt; there are way more assignments to complete than testing. I should focus on writing script for automated animations with data-duration for each slide, animated effect for subsets, script for relative steps positioning and event listeners.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Solving problem in the night takes 7 times more than in the morningnext day. Mateusz insist on me to get back to coding principles. Try, how quickly you can get 10 out of &lt;a href='http://jsbin.com/ikoveg/5/edit'&gt;this code&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: SPARTA!&lt;/p&gt;</content>
   </entry>
 </feed>
