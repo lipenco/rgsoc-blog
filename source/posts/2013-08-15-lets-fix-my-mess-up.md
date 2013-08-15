@@ -6,7 +6,7 @@ Today is the fixing day. Bartek reviewed my recent code and it turned out I have
 
 Anyways, it seems like I built all functionalities user may want to build his/her presentation so it is time to design the way my code will be used.
 
-We are thinking about web application with html code generator, where user can choose features he/her wants and download pre-made presentation. Awesome, isn't it :) Working beyond qualification is probably the most exciting thing in all IT professions.
+We are thinking about web application with html code generator, where user can choose features he/she wants and download pre-made presentation. Awesome, isn't it :) Working beyond qualification is probably the most exciting thing in all IT professions.
 
 
 ### Today I Learned:
