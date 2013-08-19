@@ -1,5 +1,5 @@
 --- 
-title: Things that blow my mind
+title: Things That Has Blown my Mind
 ---
 
 My first JavaScript event born with a big pain. If it weren't for John's help I would have most likely miscarried. But look how beautiful it is.
