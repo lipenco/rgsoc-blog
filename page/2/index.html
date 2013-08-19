@@ -58,6 +58,85 @@
 
   <div class="row">
   <div class="span6">
+  <h2><a href="../../more-is-new-less.html">More is the New Less</a> <em> <small>Jul 24</em></small></h2>
+</div>
+<div class="span4 kudo">
+  <figure class="kudo kudoable" data-id="/more-is-new-less.html">
+      <a class="kudobject">
+        <div class="opening"><div class="circle">&nbsp;</div></div>
+      </a>
+      <a href="#kudo" class="count">
+        <span class="num">0</span>
+        <span class="txt">Kudos</span>
+      </a>
+    </figure>
+  </div>
+</div>
+
+<div class="heading">  </div>
+
+<p>Have you heard of the Single Responsibility Principle? Of course not – “you” don’t exist. I keep forgetting nobody is reading this blog;p. Well, Uncle Bob had a <a href='http://vimeo.com/43592685'>great talk</a> about SRP.</p>
+
+<p>But I prefer to listen to my friend Mateusz, who has become my unofficial coach. Thanks to him, refactoring is my new favorite topic.</p>
+
+<p>Once one function like this:</p>
+
+<pre><code>function layoutLinear(options) {    
+    var distance = options.distance;    
+    var elements = document.querySelectorAll(&quot;.step&quot;);    
+    var position = 100;    
+    var scale = 1;    
+    if (!distance || distance &lt; 900) {    
+        distance = 1500;    
+}    
+for (var index = 0; index &lt; elements.length; index++) {
+    elements[index].dataset.x = position;
+    position = position + distance;
+    elements[index].dataset.scale = scale;
+    if (index % 2 === 0) {
+        scale = 2;
+    } else {
+        scale = 1;
+    }
+}</code></pre>
+
+<p>Now turned into 3 functions, way more sexy:</p>
+
+<pre><code>function MoveElementsFromEachOther(distance, elements) {   
+    var position = parseInt(elements[0].dataset.x);
+    for (var index = 0; index &lt; elements.length; index++) {
+    position = position + distance;
+    elements[index].dataset.x = position; 
+    }
+}
+
+function RescaleEveryTwoElements(scale, elements) {
+    for (var index = 0; index &lt; elements.length; index+=2) {
+    elements[index].dataset.scale = 2; 
+    }
+}
+
+function layoutLinear(distance, scale) {
+    var elements = document.querySelectorAll(&quot;.step&quot;);
+    elements[0].dataset.x = 0;
+    RescaleEveryTwoElements(scale, elements) ;
+    MoveElementsFromEachOther(distance, elements) ;
+}</code></pre>
+
+<p>Now we have a clearer structure without any difference in functionality. Seems like the magic of refactoring is measured is salary of a programmer who know how to do it right ;p But taking into account that my script generates 8 different layouts I saved a lot of space and memory while improving the readability.</p>
+
+<h3 id='today_i_learned'>Today I Learned:</h3>
+
+<ul>
+<li>The essence of refactoring.</li>
+
+<li>I am not young enough to know everthing.</li>
+</ul>
+
+<p><em>To sum up</em>: &#8220;When you sit down and solve the problem, the solution is merely just a first draft&#8221; - S. Stefanov, Java Script Patterns.</p>
+  <a data-disqus-identifier="/more-is-new-less.html" href="../../more-is-new-less.html#disqus_thread">Comments</a>
+  <div class="row">
+  <div class="span6">
   <h2><a href="../../i-am-the-most-productive.html">I am the Most Productive out of all People I Talked Today on FB.</a> <em> <small>Jul 22</em></small></h2>
 </div>
 <div class="span4 kudo">
@@ -441,43 +520,6 @@
 
 <p><em>To sum up</em>: Limoncello does taste like a lemon soap, but it makes you feel so Florentine.</p>
   <a data-disqus-identifier="/it-only-seems-to-be-easy.html" href="../../it-only-seems-to-be-easy.html#disqus_thread">Comments</a>
-  <div class="row">
-  <div class="span6">
-  <h2><a href="../../ready-steady-code.html">Ready Steady Code</a> <em> <small>Jul  1</em></small></h2>
-</div>
-<div class="span4 kudo">
-  <figure class="kudo kudoable" data-id="/ready-steady-code.html">
-      <a class="kudobject">
-        <div class="opening"><div class="circle">&nbsp;</div></div>
-      </a>
-      <a href="#kudo" class="count">
-        <span class="num">0</span>
-        <span class="txt">Kudos</span>
-      </a>
-    </figure>
-  </div>
-</div>
-
-<div class="heading">  </div>
-
-<p>So here I am - 1500 100 900 tabs open with tutorials and articles about JavaScript and CSS3. I am trying to be attentive - these are my mentor&#8217;s recommendations.</p>
-
-<p>Today, on our first weekly meeting, we set our a tactical plan for this week. The gole is to provide impress.js users with some premade themes. The most challenging part will be to pretend that I understand every single line of the impress.js code.</p>
-
-<p>We also discussed if we should care about your grandfather using IE(10) or not and how can we please him as well. Look at my <a href='https://trello.com/board/impress-js-summer-of-code/51bee39938cdf46401002f4e'>Trello Board</a> to see how it is going.</p>
-
-<h3 id='today_i_learned'>Today I Learned:</h3>
-
-<ul>
-<li>The book <a href='http://www.amazon.com/dp/1849696489'>&#8216;Building Impressive Presentations with Impress.js&#8217;</a> was surprisingly interesting and informative.</li>
-
-<li>I finally understood how to use Git. I won&#8217;t mess up the Rubymonsters repository any more.</li>
-
-<li>The <a href='https://ep2013.europython.eu/p3/live/'>EuroPython</a> schedule doesn&#8217;t seduce me, but I will give it a try tomorrow.</li>
-</ul>
-
-<p><em>To sum up</em>: Passive knowledge isn&#8217;t worth my time.</p>
-  <a data-disqus-identifier="/ready-steady-code.html" href="../../ready-steady-code.html#disqus_thread">Comments</a>
 
   
     <p><a href="../3/">Next page</a></p>

@@ -56,6 +56,47 @@
 
   <div class="row">
   <div class="span6">
+  <h2><a href="things-that-blown-my-mind.html">Things That Has Blown my Mind</a> <em> <small>Aug 19</em></small></h2>
+</div>
+<div class="span4 kudo">
+  <figure class="kudo kudoable" data-id="/things-that-blown-my-mind.html">
+      <a class="kudobject">
+        <div class="opening"><div class="circle">&nbsp;</div></div>
+      </a>
+      <a href="#kudo" class="count">
+        <span class="num">0</span>
+        <span class="txt">Kudos</span>
+      </a>
+    </figure>
+  </div>
+</div>
+
+<div class="heading">  </div>
+
+<p>My first JavaScript event born with a big pain. If it weren&#8217;t for John&#8217;s help I would have most likely miscarried. But look how beautiful it is.</p>
+
+<p><code>var event = document.createEvent(&quot;CustomEvent&quot;);
+    event.initCustomEvent(&quot;impress:substep:enter&quot;, true, true);
+    future[0].dispatchEvent(event);</code></p>
+
+<p>All these to create automated presentation with my substeps, when substeps are howing up in accordance to their data-duration attribute.</p>
+
+<p>Recently spend a lot of time watching my new favourite coding show: <a href='https://courses.edx.org/accounts/login?next=/courses/BerkeleyX/CS-169.1x/2013_Summer/courseware'>Software as a Service on edx.org</a>. This is totally awesome.</p>
+
+<p>I am also proud of Bettina and Meren with who I managed to launch <a href='http://speakerinnen-liste.herokuapp.com/'>Speakreinen Liste</a>. Not without any bugs, but who cares when effects are so nice.</p>
+
+<h3 id='today_i_learned'>Today I Learned:</h3>
+
+<ul>
+<li>Rails, Ruby, more Java Script</li>
+
+<li>Test-driven development with Jasmine</li>
+</ul>
+
+<p><em>To sum up</em>: Thinking about future work for me, how about just creating it on my own.</p>
+  <a data-disqus-identifier="/things-that-blown-my-mind.html" href="things-that-blown-my-mind.html#disqus_thread">Comments</a>
+  <div class="row">
+  <div class="span6">
   <h2><a href="lets-fix-my-mess-up.html">Let's Fix my Mess Up</a> <em> <small>Aug 15</em></small></h2>
 </div>
 <div class="span4 kudo">
@@ -361,85 +402,6 @@
 
 <p><em>To sum up</em>: Just another day with JS frustration.</p>
   <a data-disqus-identifier="/substeps-to-hell.html" href="substeps-to-hell.html#disqus_thread">Comments</a>
-  <div class="row">
-  <div class="span6">
-  <h2><a href="more-is-new-less.html">More is the New Less</a> <em> <small>Jul 24</em></small></h2>
-</div>
-<div class="span4 kudo">
-  <figure class="kudo kudoable" data-id="/more-is-new-less.html">
-      <a class="kudobject">
-        <div class="opening"><div class="circle">&nbsp;</div></div>
-      </a>
-      <a href="#kudo" class="count">
-        <span class="num">0</span>
-        <span class="txt">Kudos</span>
-      </a>
-    </figure>
-  </div>
-</div>
-
-<div class="heading">  </div>
-
-<p>Have you heard of the Single Responsibility Principle? Of course not – “you” don’t exist. I keep forgetting nobody is reading this blog;p. Well, Uncle Bob had a <a href='http://vimeo.com/43592685'>great talk</a> about SRP.</p>
-
-<p>But I prefer to listen to my friend Mateusz, who has become my unofficial coach. Thanks to him, refactoring is my new favorite topic.</p>
-
-<p>Once one function like this:</p>
-
-<pre><code>function layoutLinear(options) {    
-    var distance = options.distance;    
-    var elements = document.querySelectorAll(&quot;.step&quot;);    
-    var position = 100;    
-    var scale = 1;    
-    if (!distance || distance &lt; 900) {    
-        distance = 1500;    
-}    
-for (var index = 0; index &lt; elements.length; index++) {
-    elements[index].dataset.x = position;
-    position = position + distance;
-    elements[index].dataset.scale = scale;
-    if (index % 2 === 0) {
-        scale = 2;
-    } else {
-        scale = 1;
-    }
-}</code></pre>
-
-<p>Now turned into 3 functions, way more sexy:</p>
-
-<pre><code>function MoveElementsFromEachOther(distance, elements) {   
-    var position = parseInt(elements[0].dataset.x);
-    for (var index = 0; index &lt; elements.length; index++) {
-    position = position + distance;
-    elements[index].dataset.x = position; 
-    }
-}
-
-function RescaleEveryTwoElements(scale, elements) {
-    for (var index = 0; index &lt; elements.length; index+=2) {
-    elements[index].dataset.scale = 2; 
-    }
-}
-
-function layoutLinear(distance, scale) {
-    var elements = document.querySelectorAll(&quot;.step&quot;);
-    elements[0].dataset.x = 0;
-    RescaleEveryTwoElements(scale, elements) ;
-    MoveElementsFromEachOther(distance, elements) ;
-}</code></pre>
-
-<p>Now we have a clearer structure without any difference in functionality. Seems like the magic of refactoring is measured is salary of a programmer who know how to do it right ;p But taking into account that my script generates 8 different layouts I saved a lot of space and memory while improving the readability.</p>
-
-<h3 id='today_i_learned'>Today I Learned:</h3>
-
-<ul>
-<li>The essence of refactoring.</li>
-
-<li>I am not young enough to know everthing.</li>
-</ul>
-
-<p><em>To sum up</em>: &#8220;When you sit down and solve the problem, the solution is merely just a first draft&#8221; - S. Stefanov, Java Script Patterns.</p>
-  <a data-disqus-identifier="/more-is-new-less.html" href="more-is-new-less.html#disqus_thread">Comments</a>
 
   
     <p><a href="page/2/">Next page</a></p>
