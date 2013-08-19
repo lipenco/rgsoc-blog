@@ -12,7 +12,7 @@ All these to create automated presentation with my substeps, where substeps are 
 
 Recently spend a lot of time watching my new favourite coding show: [Software as a Service on edx.org](https://courses.edx.org/accounts/login?next=/courses/BerkeleyX/CS-169.1x/2013_Summer/courseware). This is totally awesome.
 
-I am also proud of Bettina and Meren with who I managed to launch [Speakreinen Liste](http://speakerinnen-liste.herokuapp.com/). Not without any bugs, but who cares when effects are so nice.
+I am also proud of Bettina and Maren with who I managed to launch [Speakreinen Liste](http://speakerinnen-liste.herokuapp.com/). Not without any bugs, but who cares when effects are so nice.
 
 
 ### Today I Learned:
