@@ -18,13 +18,13 @@
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;My first JavaScript event born with a big pain. If it weren&amp;#8217;t for John&amp;#8217;s help I would have most likely miscarried. But look how beautiful it is.&lt;/p&gt;
+    <content type="html">&lt;p&gt;My first JavaScript event born with a big pain. If it weren&amp;#8217;t for John&amp;#8217;s help I would have most likely miscarried. But look how beautiful it is:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;var event = document.createEvent(&amp;quot;CustomEvent&amp;quot;);
+&lt;pre&gt;&lt;code&gt;var event = document.createEvent(&amp;quot;CustomEvent&amp;quot;);
     event.initCustomEvent(&amp;quot;impress:substep:enter&amp;quot;, true, true);
-    future[0].dispatchEvent(event);&lt;/code&gt;&lt;/p&gt;
+    future[0].dispatchEvent(event);&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;All these to create automated presentation with my substeps, when substeps are howing up in accordance to their data-duration attribute.&lt;/p&gt;
+&lt;p&gt;All these to create automated presentation with my substeps, where substeps are showing up in accordance to their data-duration attribute.&lt;/p&gt;
 
 &lt;p&gt;Recently spend a lot of time watching my new favourite coding show: &lt;a href='https://courses.edx.org/accounts/login?next=/courses/BerkeleyX/CS-169.1x/2013_Summer/courseware'&gt;Software as a Service on edx.org&lt;/a&gt;. This is totally awesome.&lt;/p&gt;
 
