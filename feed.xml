@@ -5,10 +5,31 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-08-19T00:00:00Z</updated>
+  <updated>2013-08-21T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>Rails App for impress.js</title>
+    <link rel="alternate" href="http://lipen.co/til/rails-app-for-impress.html"/>
+    <id>http://lipen.co/til/rails-app-for-impress.html </id>
+    <published>2013-08-21T00:00:00Z</published>
+    <updated>2013-08-21T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Let&amp;#8217;s start a new chapter of my RGSoC. My impress features are waiting for a good display.My imaginary client would like to have an easy life, minimize the time spent on coding and if possible has all the presentation build in 2 min.&lt;/p&gt;
+
+&lt;p&gt;My goal it to build the code generator, which will enable user to get pre-made html, js and css tailored for her/his needs.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I just woke up, but will learn a lot.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Dreaming about code is kind of quirky.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Things That Has Blown my Mind</title>
     <link rel="alternate" href="http://lipen.co/til/things-that-blown-my-mind.html"/>
@@ -141,30 +162,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Cannot wait for my relative steps positioning to start working.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Event Listeners Enlightenment</title>
-    <link rel="alternate" href="http://lipen.co/til/event-listener-enlightement.html"/>
-    <id>http://lipen.co/til/event-listener-enlightement.html </id>
-    <published>2013-08-05T00:00:00Z</published>
-    <updated>2013-08-05T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;It comes to me usually late as for a front-end developer but it comes with a great happiness. Usually with extensive shooting code in the dark. But it&amp;#8217;s better than asking coaches for right solution.&lt;/p&gt;
-
-&lt;p&gt;My success for today is the &lt;a href='https://github.com/lipenco/impress.js-automated-presentation/blob/gh-pages/index.html'&gt;automated presentation script&lt;/a&gt; with data-duration attributes to enable user to set specific time for the slide display. Data-duration is the argument for the event listener function &amp;#8216;moving&amp;#8217; the presentation with set intervals.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The difference between &lt;a href='http://javascript.about.com/library/blstvsi.htm'&gt;setTimeout and setInterval&lt;/a&gt;.&lt;/li&gt;
-
-&lt;li&gt;How to make event listeners listen to me.&lt;/li&gt;
-
-&lt;li&gt;How to use typeof&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: No drama&lt;/p&gt;</content>
   </entry>
 </feed>
