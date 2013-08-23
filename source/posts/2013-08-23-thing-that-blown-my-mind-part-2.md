@@ -12,7 +12,7 @@ I am also working on my app in Rails. It already listens to the user input and r
 ### Today I Learned:
 * How to optimize loading time for heavy websites with a lot of pictures.
 * Canvas and its API
-* Why do I need controllers in Rails
+* Why I need controllers in Rails
 * How to render certain number of slides in my application
 
 _To sum up_:
