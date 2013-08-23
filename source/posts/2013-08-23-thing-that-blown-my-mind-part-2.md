@@ -16,4 +16,4 @@ I am also working on my app in Rails. It already listens to the user input and r
 * How to render certain number of slides in my application
 
 _To sum up_:
-John's method of learning based on asking questions is kind of irritating, but let's see if it's effective.
+John's method of teaching based on asking questions is kind of irritating, but let's see if it's effective.
