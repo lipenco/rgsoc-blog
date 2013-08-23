@@ -20,7 +20,7 @@
     </author>
     <content type="html">&lt;p&gt;Wow, have you heard about Canvas? It absolutely has blown my mind, and change the way I design the websites. There is very nice, approachable video course on this subject on &lt;a href='http://pluralsight.com/training/Courses/TableOfContents/html5-canvas-fundamentals'&gt;pluralssight.com&lt;/a&gt;. The service is paid, but you can manage to watch it in your free 10 days trial.&lt;/p&gt;
 
-&lt;p&gt;And what are the effects? Mine are pretty nice - I designed &lt;a href='http://lipen.co/kinga-michalska/'&gt;portfolio website&lt;/a&gt; for my friend how is a photographer.&lt;/p&gt;
+&lt;p&gt;And what are the effects? Mine are pretty nice - I designed &lt;a href='http://lipen.co/kinga-michalska/'&gt;portfolio website&lt;/a&gt; for my friend who is a photographer.&lt;/p&gt;
 
 &lt;p&gt;I am also working on my app in Rails. It already listens to the user input and renders as many slides as she/he wants. Unfortunately impress.js doesn&amp;#8217;t work. I will figure out why.&lt;/p&gt;
 
