@@ -1,8 +1,8 @@
 --- 
-title: Don't count your chickens before they are on heroku
+title: Don't count your chickens before they are on Heroku
 ---
 
-It was very productive day with my [application - Impress Builder](http://impress-builder.herokuapp.com/), but the moment I deployed the app to Heroku the charm of coding has gone.
+It was a very productive day with my [application - Impress Builder](http://impress-builder.herokuapp.com/), but the moment I deployed the app to Heroku the charm of coding has gone.
 
 Another 3h of debugging started. Assets precompiler is a hard rival. But the winner can be only one ;].
 
