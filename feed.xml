@@ -5,10 +5,31 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-08-23T00:00:00Z</updated>
+  <updated>2013-08-27T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>Don't count your chickens before they are on heroku</title>
+    <link rel="alternate" href="http://lipen.co/til/dont-count-you-chickens.html"/>
+    <id>http://lipen.co/til/dont-count-you-chickens.html </id>
+    <published>2013-08-27T00:00:00Z</published>
+    <updated>2013-08-27T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;It was very productive day with my &lt;a href='http://impress-builder.herokuapp.com/'&gt;application - Impress Builder&lt;/a&gt;, but the moment I deployed the app to Heroku the charm of coding has gone.&lt;/p&gt;
+
+&lt;p&gt;Another 3h of debugging started. Assets precompiler is a hard rival. But the winner can be only one ;].&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Few can be done without John in case of bug emergency.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: I wish I had a beer in the fridge. My app is awesome.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Things that Have Blown my Mind Part 2</title>
     <link rel="alternate" href="http://lipen.co/til/thing-that-blown-my-mind-part-2.html"/>
@@ -143,26 +164,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Waiting for Bartek to get back from vacations.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>My New Friend - Console</title>
-    <link rel="alternate" href="http://lipen.co/til/my-new-friend-console.html"/>
-    <id>http://lipen.co/til/my-new-friend-console.html </id>
-    <published>2013-08-09T00:00:00Z</published>
-    <updated>2013-08-09T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;One month of intensive Java Code writing and only now I discovered how helpful console in the browser can be.&lt;/p&gt;
-
-&lt;p&gt;Problematic relative positioning became quite simple, all errors understandable and solvable.Now my code puts the next slide with relative data attributes like data-x=&amp;#8221;+1000&amp;#8221; 1000 px ahead of the previous step. &lt;a href='https://github.com/lipenco/impress.js-relative-positioning/blob/gh-pages/js/relativepositioning.js'&gt;What a nice feature&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;How to use console and deduct the solution.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: It is easier to start new project than to finish the old one. Today I made myself to work on one of my &lt;a href='http://lipen.co/projektpolska.is/'&gt;portfolio projects&lt;/a&gt;.&lt;/p&gt;</content>
   </entry>
 </feed>
