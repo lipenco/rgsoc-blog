@@ -10,7 +10,7 @@
     <name>Magdalena Lipinska</name>
   </author>
   <entry>
-    <title>Don't count your chickens before they are on heroku</title>
+    <title>Don't count your chickens before they are on Heroku</title>
     <link rel="alternate" href="http://lipen.co/til/dont-count-you-chickens.html"/>
     <id>http://lipen.co/til/dont-count-you-chickens.html </id>
     <published>2013-08-27T00:00:00Z</published>
@@ -18,7 +18,7 @@
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;It was very productive day with my &lt;a href='http://impress-builder.herokuapp.com/'&gt;application - Impress Builder&lt;/a&gt;, but the moment I deployed the app to Heroku the charm of coding has gone.&lt;/p&gt;
+    <content type="html">&lt;p&gt;It was a very productive day with my &lt;a href='http://impress-builder.herokuapp.com/'&gt;application - Impress Builder&lt;/a&gt;, but the moment I deployed the app to Heroku the charm of coding has gone.&lt;/p&gt;
 
 &lt;p&gt;Another 3h of debugging started. Assets precompiler is a hard rival. But the winner can be only one ;].&lt;/p&gt;
 
