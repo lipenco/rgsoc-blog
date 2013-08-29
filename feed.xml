@@ -5,10 +5,35 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-08-27T00:00:00Z</updated>
+  <updated>2013-08-29T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>The Code of Impression</title>
+    <link rel="alternate" href="http://lipen.co/til/the-code-of-impresion.html"/>
+    <id>http://lipen.co/til/the-code-of-impresion.html </id>
+    <published>2013-08-29T00:00:00Z</published>
+    <updated>2013-08-29T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href='http://impress-builder.herokuapp.com/'&gt;Impress Builder&lt;/a&gt; will impress you, I am sure. Check it now.&lt;/p&gt;
+
+&lt;p&gt;It is hard to stop working on it. Fortunately there is still lot of pleasure in it, it will not be finished so soon.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;More controllers.&lt;/li&gt;
+
+&lt;li&gt;Rails shows no mercy when it comes to code correctness. In browser my JS code worked just fine, to run it on Rails I have to fix it.&lt;/li&gt;
+
+&lt;li&gt;I got excited about AngularJS.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: This time I have a beer in my fridge. I will open votka when the button &amp;#8216;download zip&amp;#8217; gets to work.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Don't count your chickens before they are on Heroku</title>
     <link rel="alternate" href="http://lipen.co/til/dont-count-you-chickens.html"/>
@@ -139,30 +164,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: It is kind of frustrating when John doesn&amp;#8217;t want/cannot help me right away when I am asking him to, but it is so much nicer to say: &amp;#8220;I don&amp;#8217;t need you, problem&amp;#8217;s solved&amp;#8221;.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>New Tools in my Front End Pocket</title>
-    <link rel="alternate" href="http://lipen.co/til/new-tools-Ajax.html"/>
-    <id>http://lipen.co/til/new-tools-Ajax.html </id>
-    <published>2013-08-13T00:00:00Z</published>
-    <updated>2013-08-13T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Yesterday I finished my &lt;a href='https://github.com/lipenco/impress.js-tests'&gt;assignments with test&lt;/a&gt; - writing them in two frameworks: Jasmine and Qtest and I have a feeling I made a step forward. I was sceptical at the beginning, but now I see some potential in this tool.&lt;/p&gt;
-
-&lt;p&gt;Today I will focus on Ajax. It has nothing to do with impress.js, since it does not communicate with the server but the goal of my 3-month RgSoC is to make a &amp;#8216;true&amp;#8217; programmer form me. This is why without Ajax my Javascript path is incomplete.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;How to run and pass Jasmine and Qtest tests.&lt;/li&gt;
-
-&lt;li&gt;Studying Ajax in progress.&lt;/li&gt;
-
-&lt;li&gt;I am learning Russian letters from my mistakes - instead of milk, I bought a kefir. Kind of like my JavaScript learning process. ;p&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Waiting for Bartek to get back from vacations.&lt;/p&gt;</content>
   </entry>
 </feed>
