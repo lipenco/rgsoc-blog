@@ -13,4 +13,4 @@ It is hard to stop working on it. Fortunately there is still lot of pleasure in 
 
 
 _To sum up_:
-This time I have a beer in my fridge. I will open votka when the button 'download zip' gets to work.
+This time I have a beer in my fridge. I will open vodka when the button 'download zip' gets to work.
