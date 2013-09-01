@@ -5,10 +5,29 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-08-29T00:00:00Z</updated>
+  <updated>2013-09-01T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>Feel free to get Impress[ed]</title>
+    <link rel="alternate" href="http://lipen.co/til/feel-free-to-get-impress.html"/>
+    <id>http://lipen.co/til/feel-free-to-get-impress.html </id>
+    <published>2013-09-01T00:00:00Z</published>
+    <updated>2013-09-01T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;My prototype is Working! Check it out &lt;a href='http://impress-builder.herokuapp.com/'&gt;Impress Builder&lt;/a&gt; and get your own pre-build application.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Modules, include ::, understanding gems, IO objects &amp;#8230;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: 1sh of September - victory, Poland!&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>The Code of Impression</title>
     <link rel="alternate" href="http://lipen.co/til/the-code-of-impression.html"/>
@@ -135,34 +154,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Thinking about future work for me, how about just creating it on my own.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Let's Fix my Mess Up</title>
-    <link rel="alternate" href="http://lipen.co/til/lets-fix-my-mess-up.html"/>
-    <id>http://lipen.co/til/lets-fix-my-mess-up.html </id>
-    <published>2013-08-15T00:00:00Z</published>
-    <updated>2013-08-15T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Today is the fixing day. Bartek reviewed my recent code and it turned out I have a lot code to polish up. Attention to details is not my primary virtue.&lt;/p&gt;
-
-&lt;p&gt;Anyways, it seems like I built all functionalities user may want to build his/her presentation so it is time to design the way my code will be used.&lt;/p&gt;
-
-&lt;p&gt;We are thinking about web application with html code generator, where user can choose features he/she wants and download pre-made presentation. Awesome, isn&amp;#8217;t it :) Working beyond qualification is probably the most exciting thing in all IT professions.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;What I already knew - I need to focus more on details.&lt;/li&gt;
-
-&lt;li&gt;(Yesterday) some Rails for sport and fun.&lt;/li&gt;
-
-&lt;li&gt;(Yesterday) Ajax for sport, fun and glory.&lt;/li&gt;
-
-&lt;li&gt;All this substring() shit which made me nervous.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: It is kind of frustrating when John doesn&amp;#8217;t want/cannot help me right away when I am asking him to, but it is so much nicer to say: &amp;#8220;I don&amp;#8217;t need you, problem&amp;#8217;s solved&amp;#8221;.&lt;/p&gt;</content>
   </entry>
 </feed>
