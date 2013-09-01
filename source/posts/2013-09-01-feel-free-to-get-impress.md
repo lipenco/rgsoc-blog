@@ -1,0 +1,11 @@
+--- 
+title: Feel free to get Impress[ed]
+---
+
+My prototype is Working! Check it out [Impress Builder](http://impress-builder.herokuapp.com/) and get your own pre-build application. 
+
+### Today I Learned:
+* Modules, include ::, understanding gems, IO objects ...
+
+_To sum up_:
+1sh of September - victory, Poland!
