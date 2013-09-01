@@ -2,7 +2,7 @@
 title: Feel free to get Impress[ed]
 ---
 
-My prototype is Working! Check it out [Impress Builder](http://impress-builder.herokuapp.com/) and get your own pre-build application. 
+My prototype is Working! Check it out [Impress Builder](http://impress-builder.herokuapp.com/) and get your own pre-build presentation. 
 
 ### Today I Learned:
 * Modules, include ::, understanding gems, IO objects ...
