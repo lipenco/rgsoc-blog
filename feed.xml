@@ -5,10 +5,31 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-09-01T00:00:00Z</updated>
+  <updated>2013-09-10T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>Java Script is Getting more Complicated</title>
+    <link rel="alternate" href="http://lipen.co/til/JS-is-getting-more-complicated.html"/>
+    <id>http://lipen.co/til/JS-is-getting-more-complicated.html </id>
+    <published>2013-09-10T00:00:00Z</published>
+    <updated>2013-09-10T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;How to store the slides content inside JavaScript and transfer it between 2 iframes. This and many more questions are killing me softly. And every time I am close to the solution it&amp;#8217;s disappointing.&lt;/p&gt;
+
+&lt;p&gt;For now you can play with editing content without storing :) &lt;a href='http://impress-builder.herokuapp.com/'&gt;Impress Builder&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;data(); parent.window and some more words which should be helpful on my way to let you edit presentation content.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Sparta!&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Feel free to get Impress[ed]</title>
     <link rel="alternate" href="http://lipen.co/til/feel-free-to-get-impress.html"/>
@@ -123,36 +144,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Dreaming about code is kind of quirky.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Things That Has Blown my Mind</title>
-    <link rel="alternate" href="http://lipen.co/til/things-that-blown-my-mind.html"/>
-    <id>http://lipen.co/til/things-that-blown-my-mind.html </id>
-    <published>2013-08-19T00:00:00Z</published>
-    <updated>2013-08-19T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;My first JavaScript event born with a big pain. If it weren&amp;#8217;t for John&amp;#8217;s help I would have most likely miscarried. But look how beautiful it is:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;var event = document.createEvent(&amp;quot;CustomEvent&amp;quot;);
-    event.initCustomEvent(&amp;quot;impress:substep:enter&amp;quot;, true, true);
-    future[0].dispatchEvent(event);&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;All these to create automated presentation with my substeps, where substeps are showing up in accordance to their data-duration attribute.&lt;/p&gt;
-
-&lt;p&gt;Recently spend a lot of time watching my new favourite coding show: &lt;a href='https://courses.edx.org/accounts/login?next=/courses/BerkeleyX/CS-169.1x/2013_Summer/courseware'&gt;Software as a Service on edx.org&lt;/a&gt;. This is totally awesome.&lt;/p&gt;
-
-&lt;p&gt;I am also proud of Bettina and Maren with who I managed to launch &lt;a href='http://speakerinnen-liste.herokuapp.com/'&gt;Speakreinen Liste&lt;/a&gt;. Not without any bugs, but who cares when effects are so nice.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Rails, Ruby, more Java Script&lt;/li&gt;
-
-&lt;li&gt;Test-driven development with Jasmine&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Thinking about future work for me, how about just creating it on my own.&lt;/p&gt;</content>
   </entry>
 </feed>
