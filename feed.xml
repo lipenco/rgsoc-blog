@@ -5,10 +5,31 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-09-10T00:00:00Z</updated>
+  <updated>2013-09-17T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>Coding Endorphins</title>
+    <link rel="alternate" href="http://lipen.co/til/coding-endorphins.html"/>
+    <id>http://lipen.co/til/coding-endorphins.html </id>
+    <published>2013-09-17T00:00:00Z</published>
+    <updated>2013-09-17T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;How beautiful it is. Last week I made some significant jumps towards enlightenment. First JSON, first cross iframes function, first question on StackOverFlow, first POST function.&lt;/p&gt;
+
+&lt;p&gt;Cosing gets me high. Look how nice it is: &lt;a href='http://impress-builder.herokuapp.com/'&gt;Impress Builder&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Objects are useful and usable.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: StackOverFlow is crazy, it solved my problems in 10s.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Java Script is Getting more Complicated</title>
     <link rel="alternate" href="http://lipen.co/til/JS-is-getting-more-complicated.html"/>
@@ -123,26 +144,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: John&amp;#8217;s method of teaching based on asking questions is kind of irritating, but let&amp;#8217;s see if it&amp;#8217;s effective.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Rails App for impress.js</title>
-    <link rel="alternate" href="http://lipen.co/til/rails-app-for-impress.html"/>
-    <id>http://lipen.co/til/rails-app-for-impress.html </id>
-    <published>2013-08-21T00:00:00Z</published>
-    <updated>2013-08-21T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Let&amp;#8217;s start a new chapter of my RGSoC. My product features ready are waiting for a good use. My imaginary user would like to have an easy life, minimize the time spent on coding and if possible has all the presentation ready in 2 min.&lt;/p&gt;
-
-&lt;p&gt;My goal is to build the code generator, which will enable user to get pre-made html, js and css files tailored for her/his needs.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I just woke up, but will learn a lot.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Dreaming about code is kind of quirky.&lt;/p&gt;</content>
   </entry>
 </feed>
