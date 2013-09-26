@@ -5,10 +5,33 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-09-17T00:00:00Z</updated>
+  <updated>2013-09-26T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>Pimping my App</title>
+    <link rel="alternate" href="http://lipen.co/til/pipmping-my-app.html"/>
+    <id>http://lipen.co/til/pipmping-my-app.html </id>
+    <published>2013-09-26T00:00:00Z</published>
+    <updated>2013-09-26T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;jQuery UI is exactly the magic I need - resizing, sorting, dragging makes me happier about the usability of ImpressLab.&lt;/p&gt;
+
+&lt;p&gt;Every change brings a plague of many bugs. Working on landing page in progress.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I hate interviews, and everybody who thinks I want to work for them for free.&lt;/li&gt;
+
+&lt;li&gt;Backbone.js&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Sad because these are the last days of RGSoC. I will not finish working on ImpressLab - too much fun.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Coding Endorphins</title>
     <link rel="alternate" href="http://lipen.co/til/coding-endorphins.html"/>
@@ -115,34 +138,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: I wish I had a beer in the fridge. My app is awesome.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Things that Have Blown my Mind Part 2</title>
-    <link rel="alternate" href="http://lipen.co/til/thing-that-blown-my-mind-part-2.html"/>
-    <id>http://lipen.co/til/thing-that-blown-my-mind-part-2.html </id>
-    <published>2013-08-23T00:00:00Z</published>
-    <updated>2013-08-23T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Wow, have you heard about Canvas? It absolutely has blown my mind, and change the way I design the websites. There is very nice, approachable video course on this subject on &lt;a href='http://pluralsight.com/training/Courses/TableOfContents/html5-canvas-fundamentals'&gt;pluralssight.com&lt;/a&gt;. The service is paid, but you can manage to watch it in your free 10 days trial.&lt;/p&gt;
-
-&lt;p&gt;And what are the effects? Mine are pretty nice - I designed &lt;a href='http://lipen.co/kinga-michalska/'&gt;portfolio website&lt;/a&gt; for my friend who is a photographer.&lt;/p&gt;
-
-&lt;p&gt;I am also working on my app in Rails. It already listens to the user input and renders as many slides as she/he wants. Unfortunately impress.js doesn&amp;#8217;t work. I will figure out why.&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;How to optimize loading time for heavy websites with a lot of pictures.&lt;/li&gt;
-
-&lt;li&gt;Canvas and its API&lt;/li&gt;
-
-&lt;li&gt;Why I need controllers in Rails&lt;/li&gt;
-
-&lt;li&gt;How to render certain number of slides in my application&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: John&amp;#8217;s method of teaching based on asking questions is kind of irritating, but let&amp;#8217;s see if it&amp;#8217;s effective.&lt;/p&gt;</content>
   </entry>
 </feed>
