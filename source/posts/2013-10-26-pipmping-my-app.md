@@ -1,5 +1,5 @@
 --- 
-title: Pipmpimng my App
+title: Pimping my App
 ---
 
 jQuery UI is exactly the magic I need - resizing, sorting, dragging makes me happier about the usability of ImpressLab.
