@@ -5,10 +5,35 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-09-26T00:00:00Z</updated>
+  <updated>2013-10-04T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
+  <entry>
+    <title>Show must Go On</title>
+    <link rel="alternate" href="http://lipen.co/til/show-must-go-on.html"/>
+    <id>http://lipen.co/til/show-must-go-on.html </id>
+    <published>2013-10-04T00:00:00Z</published>
+    <updated>2013-10-04T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Rails Girls Summer of Code, you&amp;#8217;ve been so good for me. Now it&amp;#8217;s time to move on, but my app has begin my biggest hobby. My messy code makes it hard to debug and add new features, every new functionality is a big battle. But I just love it.&lt;/p&gt;
+
+&lt;p&gt;There is still so much to do.&lt;/p&gt;
+
+&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Building admin page with charts and tables that represent the data base.&lt;/li&gt;
+
+&lt;li&gt;Sinatra&lt;/li&gt;
+
+&lt;li&gt;Mustache&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: I like my new internship in Tokyo, so many news stuff and frameworks to learn.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Pimping my App</title>
     <link rel="alternate" href="http://lipen.co/til/pipmping-my-app.html"/>
@@ -117,26 +142,5 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: This time I have a beer in my fridge. I will open vodka when the button &amp;#8216;download zip&amp;#8217; gets to work.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Don't count your chickens before they are on Heroku</title>
-    <link rel="alternate" href="http://lipen.co/til/dont-count-you-chickens.html"/>
-    <id>http://lipen.co/til/dont-count-you-chickens.html </id>
-    <published>2013-08-27T00:00:00Z</published>
-    <updated>2013-08-27T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;It was a very productive day with my &lt;a href='http://impress-builder.herokuapp.com/'&gt;application - Impress Builder&lt;/a&gt;, but the moment I deployed the app to Heroku the charm of coding has gone.&lt;/p&gt;
-
-&lt;p&gt;Another 3h of debugging started. Assets precompiler is a hard rival. But the winner can be only one ;].&lt;/p&gt;
-
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Few can be done without John in case of bug emergency.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: I wish I had a beer in the fridge. My app is awesome.&lt;/p&gt;</content>
   </entry>
 </feed>
