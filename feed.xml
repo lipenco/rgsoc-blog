@@ -28,6 +28,8 @@
 
 &lt;h4 id='1_vars_are_long_gone'&gt;1. Vars are long gone&lt;/h4&gt;
 
+&lt;p&gt;You don&amp;#8217;t need to declare your variables, you can also replace a word &amp;#8220;function&amp;#8221; with -&amp;gt;&lt;/p&gt;
+
 &lt;p&gt;ugliness of JS:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;var count, increment
@@ -38,7 +40,7 @@ var increment = function() {
   return total = &amp;quot;CoffeScript is &amp;quot; + count + &amp;quot;better than pure JS&amp;quot;
 }&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;beauty of CoffeeScript&lt;/p&gt;
+&lt;p&gt;beauty of CoffeeScript:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;count
 
@@ -48,7 +50,7 @@ increment -&amp;gt;
 
 &lt;h4 id='2_implicit_returns_just_like_in_ruby'&gt;2. Implicit returns, just like in ruby.&lt;/h4&gt;
 
-&lt;p&gt;beauty of CoffeeScript&lt;/p&gt;
+&lt;p&gt;beauty of CoffeeScript:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;love -&amp;gt; 
   console.log &amp;quot;I &amp;lt;3 CoffeeScript&amp;quot;&lt;/code&gt;&lt;/pre&gt;
