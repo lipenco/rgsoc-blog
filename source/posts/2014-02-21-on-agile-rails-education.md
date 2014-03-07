@@ -4,7 +4,7 @@ title: Coffescript - JavaScript for Rubyists
 
 
 
-Programming languages are like songs, we like the ones we know. If your know Ruby you are probably picky about syntax and beauty of the language. This is why you will most likely be tempted to try Coffescript -  a language that compiles into JavaScript. 
+Programming languages are like songs, we like the ones we know. If your know Ruby you are probably picky about syntax and beauty of the language. This is why you will most likely be tempted to try Coffeescript -  a language that compiles into JavaScript. 
 
 It embraces Ruby's simplicity, readability and even some idioms.
 
@@ -26,7 +26,7 @@ ugliness of JS:
     var increment = function() {
       var total;
       count += 1;
-      return total = "CoffeScript is " + count + "better than pure JS"
+      return total = "CoffeeScript is " + count + "better than pure JS"
     }
 
 beauty of CoffeeScript:
@@ -35,7 +35,7 @@ beauty of CoffeeScript:
 
     increment ->
       count += 1
-      total = "CoffeScript is " + count + "better than pure JS"
+      total = "CoffeeScript is " + count + "better than pure JS"
 
 
 
@@ -57,7 +57,7 @@ ugliness  of JavaScript:
 
 #### 3. CoffeeScript allows to use defoult options.
 
-CoffeScript:
+CoffeeScript:
 
     love = (options {}) ->
 
@@ -87,7 +87,7 @@ Javascrip:
        }
      };
 
-CoffeScript:
+CoffeeScript:
      
      person = 
         name: "Magda"
@@ -130,7 +130,7 @@ You can also use it in place of the || operator:
 
       velocity = southern ? 40
 
-Coffescript has somthing similar to Active Support’s try method:
+Coffeescript has somthing similar to Active Support’s try method:
 
       player.getLife()?.play()
 
