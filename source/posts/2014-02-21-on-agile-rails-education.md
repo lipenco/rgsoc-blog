@@ -3,20 +3,20 @@ title: Coffescript - JavaScript for Rubyists
 ---
 
 
-Programming languages is like songs, we like the one we know. 
+Programming languages is like songs, we like the one we know.
 
-There is one reson why coffessscript is so beutiful. It was ispired by Ruby language. It is amazing how some of its' idions make so much sense.
+There is one reason why coffessscript is so beautiful. It was inspired by Ruby language. It is amazing how some of its’ idioms make so much sense.
 
-No more semicolons, optional parenthasis and curly braces, no comas, white space sensitive - these are only begigning of benefit coffescript has to offer.
+No more semicolons, optional parenthesis and curly braces, no comas, white space sensitive - these are only beginning of benefit coffescript has to offer.
 
 
-Here are the 8 undespitable resons to love coffeescript:
+## Here are the 8 indisputable reasons to love coffeescript:
 
 
 
 #### 1. Vars are long gone
 
-Ugliness if JS:
+ugliness of JS:
 
     var count, increment
 
@@ -26,7 +26,7 @@ Ugliness if JS:
       return total = "CoffeScript is " + count + "better than pure JS"
     }
 
-Beuty of CoffeeScript
+beauty of CoffeeScript
 
     count
 
@@ -36,15 +36,15 @@ Beuty of CoffeeScript
 
 
 
-#### 2. Imlicit returns, just like in ruby.
+#### 2. Implicit returns, just like in ruby.
 
-beuty of CoffeeScript
+beauty of CoffeeScript
 
     love -> 
       console.log "I <3 CoffeeScript"
 
 
-uglynesss of JavaScript:
+ugliness  of JavaScript:
 
 
     var eat = function() {
@@ -52,7 +52,7 @@ uglynesss of JavaScript:
     }
 
 
-#### 3. CoffeeScript allow you use defoult options, even though it looks weird.
+#### 3. CoffeeScript allows to use defoult options.
 
 CoffeScript:
 
@@ -91,7 +91,7 @@ CoffeScript:
 
 
 
-#### 5. Flow Control as beutifull and operators (and, or, is)
+#### 5. Flow Control as beautiful and operators  (and, or, is)
 
 
       if true == true
@@ -137,11 +137,31 @@ So rubiest, it doesn't happen in pure JS:
        "Hey, #{name} have a good day!!"  
 
 
-#### 8. Beuty of loops
+#### 8. Beauty of loops
 
 Again, CoffeeScript comes to the rescue, with a beautiful syntax:
 
       for name in ["Roger", "Roderick", "Brian"] alert "Release #{name}"
+
+or interation 
+      
+      #Coffescript:
+
+      countdown = (num for num in [10..1])
+
+
+       #JavaScript:
+
+      var countdown, num;
+
+      countdown = (function() {
+        var _i, _results;
+        _results = [];
+        for (num = _i = 10; _i >= 1; num = --_i) {
+          _results.push(num);
+        }
+        return _results;
+      })();
       
 If you need the current iteration index, just pass an extra argument:
 
