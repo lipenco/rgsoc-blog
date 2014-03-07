@@ -17,6 +17,8 @@ No semicolons, no comas, optional parenthesis and curly braces and yes, it is st
 
 #### 1. Vars are long gone
 
+You don't need to declare your variables, you can also replace a word "function" with ->
+
 ugliness of JS:
 
     var count, increment
@@ -27,7 +29,7 @@ ugliness of JS:
       return total = "CoffeScript is " + count + "better than pure JS"
     }
 
-beauty of CoffeeScript
+beauty of CoffeeScript:
 
     count
 
@@ -39,7 +41,7 @@ beauty of CoffeeScript
 
 #### 2. Implicit returns, just like in ruby.
 
-beauty of CoffeeScript
+beauty of CoffeeScript:
 
     love -> 
       console.log "I <3 CoffeeScript"
