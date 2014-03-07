@@ -87,12 +87,17 @@ font-weight: 200;
 
 
 p, li {
- font-size: 1.2em;
- line-height: 1.3em;
- font-weight: lighter;
+ font-size: 1.5em;
+ line-height: 1.5em;
+ font-weight: 300;
  margin-top: 15px;
 }
 
+
+h4, h3 {
+
+  padding-top: 3em;
+}
 nav li {
   margin-top: 0;
 }

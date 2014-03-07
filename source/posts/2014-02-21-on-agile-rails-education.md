@@ -3,14 +3,15 @@ title: Coffescript - JavaScript for Rubyists
 ---
 
 
-Programming languages is like songs, we like the one we know.
 
-There is one reason why coffessscript is so beautiful. It was inspired by Ruby language. It is amazing how some of its’ idioms make so much sense.
+Programming languages is like songs, we like the one we know. If you have experience with Ruby, you will most likely be tempted to try Coffescript -  a language that compiles into JavaScript. 
 
-No more semicolons, optional parenthesis and curly braces, no comas, white space sensitive - these are only beginning of benefit coffescript has to offer.
+There why Coffessscript will allure you so easily is that it was inspired by Ruby language. It embraces Ruby's simplicity, readability and even some idioms.
+
+No semicolons, optional parenthesis and curly braces, no comas - it's only a beginning.
 
 
-## Here are the 8 indisputable reasons to love coffeescript:
+### Here are the 8 indisputable reasons to love Coffeescript:
 
 
 
@@ -68,6 +69,8 @@ Javascrip:
 
 
 #### 4. CoffeeScript serves spats.
+
+CoffeeScript provides splats ..., making variable numbers of arguments a little bit more flexible.
 
 
 Javascrip:
@@ -137,35 +140,28 @@ So rubiest, it doesn't happen in pure JS:
        "Hey, #{name} have a good day!!"  
 
 
-#### 8. Beauty of loops
+#### 8. Beauty of loops and comprehensions
 
-Again, CoffeeScript comes to the rescue, with a beautiful syntax:
+Most of the loops you'll write in CoffeeScript will be comprehensions over arrays and objects. Comprehensions replace (and compile into) "for loops", with array index. Unlike "for loops" in JavaScript, array comprehensions are expressions, and can be returned and assigned.
 
-      for name in ["Roger", "Roderick", "Brian"] alert "Release #{name}"
-
-or interation 
-      
-      #Coffescript:
-
-      countdown = (num for num in [10..1])
-
-
-       #JavaScript:
-
-      var countdown, num;
-
-      countdown = (function() {
-        var _i, _results;
-        _results = [];
-        for (num = _i = 10; _i >= 1; num = --_i) {
-          _results.push(num);
-        }
-        return _results;
-      })();
-      
-If you need the current iteration index, just pass an extra argument:
+Example with index:
 
       for name, i in ["Roger the pickpocket", "Roderick the robber"] alert "#{i} - Release #{name}"
+
+
+Example with key, value pairs:
+
+      yearsOld = max: 10, ida: 9, tim: 11
+
+      ages = for child, age of yearsOld
+        "#{child} is #{age}"
+
+
+
+CoffeeScript allows you to write JavaScript in a concise, elegant fashion, there is not reason to make yourself unhappy with pure JS.
+      
+
+     
       
    
 
