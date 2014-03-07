@@ -18,7 +18,7 @@
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;Programming languages are like songs, we like the ones we know. If your know Ruby you are probably picky about syntax and beauty of the language. This is why you will most likely be tempted to try Coffescript - a language that compiles into JavaScript.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Programming languages are like songs, we like the ones we know. If your know Ruby you are probably picky about syntax and beauty of the language. This is why you will most likely be tempted to try Coffeescript - a language that compiles into JavaScript.&lt;/p&gt;
 
 &lt;p&gt;It embraces Ruby&amp;#8217;s simplicity, readability and even some idioms.&lt;/p&gt;
 
@@ -37,7 +37,7 @@
 var increment = function() {
   var total;
   count += 1;
-  return total = &amp;quot;CoffeScript is &amp;quot; + count + &amp;quot;better than pure JS&amp;quot;
+  return total = &amp;quot;CoffeeScript is &amp;quot; + count + &amp;quot;better than pure JS&amp;quot;
 }&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;beauty of CoffeeScript:&lt;/p&gt;
@@ -46,7 +46,7 @@ var increment = function() {
 
 increment -&amp;gt;
   count += 1
-  total = &amp;quot;CoffeScript is &amp;quot; + count + &amp;quot;better than pure JS&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+  total = &amp;quot;CoffeeScript is &amp;quot; + count + &amp;quot;better than pure JS&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4 id='2_implicit_returns_just_like_in_ruby'&gt;2. Implicit returns, just like in ruby.&lt;/h4&gt;
 
@@ -63,7 +63,7 @@ increment -&amp;gt;
 
 &lt;h4 id='3_coffeescript_allows_to_use_defoult_options'&gt;3. CoffeeScript allows to use defoult options.&lt;/h4&gt;
 
-&lt;p&gt;CoffeScript:&lt;/p&gt;
+&lt;p&gt;CoffeeScript:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;love = (options {}) -&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 
@@ -91,7 +91,7 @@ increment -&amp;gt;
    }
  };&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;CoffeScript:&lt;/p&gt;
+&lt;p&gt;CoffeeScript:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt; person = 
     name: &amp;quot;Magda&amp;quot;
@@ -129,7 +129,7 @@ increment -&amp;gt;
 
 &lt;pre&gt;&lt;code&gt;  velocity = southern ? 40&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Coffescript has somthing similar to Active Support’s try method:&lt;/p&gt;
+&lt;p&gt;Coffeescript has somthing similar to Active Support’s try method:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;  player.getLife()?.play()&lt;/code&gt;&lt;/pre&gt;
 
