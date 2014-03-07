@@ -69,13 +69,13 @@
 
 <div class="heading">  </div>
 
-<p>Programming languages is like songs, we like the one we know.</p>
+<p>Programming languages is like songs, we like the one we know. If you have experience with Ruby, you will most likely be tempted to try Coffescript - a language that compiles into JavaScript.</p>
 
-<p>There is one reason why coffessscript is so beautiful. It was inspired by Ruby language. It is amazing how some of its’ idioms make so much sense.</p>
+<p>There why Coffessscript will allure you so easily is that it was inspired by Ruby language. It embraces Ruby&#8217;s simplicity, readability and even some idioms.</p>
 
-<p>No more semicolons, optional parenthesis and curly braces, no comas, white space sensitive - these are only beginning of benefit coffescript has to offer.</p>
+<p>No semicolons, optional parenthesis and curly braces, no comas - it&#8217;s only a beginning.</p>
 
-<h2 id='here_are_the_8_indisputable_reasons_to_love_coffeescript'>Here are the 8 indisputable reasons to love coffeescript:</h2>
+<h3 id='here_are_the_8_indisputable_reasons_to_love_coffeescript'>Here are the 8 indisputable reasons to love Coffeescript:</h3>
 
 <h4 id='1_vars_are_long_gone'>1. Vars are long gone</h4>
 
@@ -125,6 +125,8 @@ increment -&gt;
 };</code></pre>
 
 <h4 id='4_coffeescript_serves_spats'>4. CoffeeScript serves spats.</h4>
+
+<p>CoffeeScript provides splats &#8230;, making variable numbers of arguments a little bit more flexible.</p>
 
 <p>Javascrip:</p>
 
@@ -186,35 +188,22 @@ increment -&gt;
 
 <pre><code>   &quot;Hey, #{name} have a good day!!&quot;  </code></pre>
 
-<h4 id='8_beauty_of_loops'>8. Beauty of loops</h4>
+<h4 id='8_beauty_of_loops_and_comprehensions'>8. Beauty of loops and comprehensions</h4>
 
-<p>Again, CoffeeScript comes to the rescue, with a beautiful syntax:</p>
+<p>Most of the loops you&#8217;ll write in CoffeeScript will be comprehensions over arrays and objects. Comprehensions replace (and compile into) &#8220;for loops&#8221;, with array index. Unlike &#8220;for loops&#8221; in JavaScript, array comprehensions are expressions, and can be returned and assigned.</p>
 
-<pre><code>  for name in [&quot;Roger&quot;, &quot;Roderick&quot;, &quot;Brian&quot;] alert &quot;Release #{name}&quot;</code></pre>
-
-<p>or interation</p>
-
-<pre><code>  #Coffescript:
-
-  countdown = (num for num in [10..1])
-
-
-   #JavaScript:
-
-  var countdown, num;
-
-  countdown = (function() {
-    var _i, _results;
-    _results = [];
-    for (num = _i = 10; _i &gt;= 1; num = --_i) {
-      _results.push(num);
-    }
-    return _results;
-  })();</code></pre>
-
-<p>If you need the current iteration index, just pass an extra argument:</p>
+<p>Example with index:</p>
 
 <pre><code>  for name, i in [&quot;Roger the pickpocket&quot;, &quot;Roderick the robber&quot;] alert &quot;#{i} - Release #{name}&quot;</code></pre>
+
+<p>Example with key, value pairs:</p>
+
+<pre><code>  yearsOld = max: 10, ida: 9, tim: 11
+
+  ages = for child, age of yearsOld
+    &quot;#{child} is #{age}&quot;</code></pre>
+
+<p>CoffeeScript allows you to write JavaScript in a concise, elegant fashion, there is not reason to make yourself unhappy with pure JS.</p>
 
   <div id="disqus_thread"></div>
   <script type="text/javascript">

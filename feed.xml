@@ -18,13 +18,13 @@
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;Programming languages is like songs, we like the one we know.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Programming languages is like songs, we like the one we know. If you have experience with Ruby, you will most likely be tempted to try Coffescript - a language that compiles into JavaScript.&lt;/p&gt;
 
-&lt;p&gt;There is one reason why coffessscript is so beautiful. It was inspired by Ruby language. It is amazing how some of its’ idioms make so much sense.&lt;/p&gt;
+&lt;p&gt;There why Coffessscript will allure you so easily is that it was inspired by Ruby language. It embraces Ruby&amp;#8217;s simplicity, readability and even some idioms.&lt;/p&gt;
 
-&lt;p&gt;No more semicolons, optional parenthesis and curly braces, no comas, white space sensitive - these are only beginning of benefit coffescript has to offer.&lt;/p&gt;
+&lt;p&gt;No semicolons, optional parenthesis and curly braces, no comas - it&amp;#8217;s only a beginning.&lt;/p&gt;
 
-&lt;h2 id='here_are_the_8_indisputable_reasons_to_love_coffeescript'&gt;Here are the 8 indisputable reasons to love coffeescript:&lt;/h2&gt;
+&lt;h3 id='here_are_the_8_indisputable_reasons_to_love_coffeescript'&gt;Here are the 8 indisputable reasons to love Coffeescript:&lt;/h3&gt;
 
 &lt;h4 id='1_vars_are_long_gone'&gt;1. Vars are long gone&lt;/h4&gt;
 
@@ -74,6 +74,8 @@ increment -&amp;gt;
 };&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4 id='4_coffeescript_serves_spats'&gt;4. CoffeeScript serves spats.&lt;/h4&gt;
+
+&lt;p&gt;CoffeeScript provides splats &amp;#8230;, making variable numbers of arguments a little bit more flexible.&lt;/p&gt;
 
 &lt;p&gt;Javascrip:&lt;/p&gt;
 
@@ -135,34 +137,21 @@ increment -&amp;gt;
 
 &lt;pre&gt;&lt;code&gt;   &amp;quot;Hey, #{name} have a good day!!&amp;quot;  &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4 id='8_beauty_of_loops'&gt;8. Beauty of loops&lt;/h4&gt;
+&lt;h4 id='8_beauty_of_loops_and_comprehensions'&gt;8. Beauty of loops and comprehensions&lt;/h4&gt;
 
-&lt;p&gt;Again, CoffeeScript comes to the rescue, with a beautiful syntax:&lt;/p&gt;
+&lt;p&gt;Most of the loops you&amp;#8217;ll write in CoffeeScript will be comprehensions over arrays and objects. Comprehensions replace (and compile into) &amp;#8220;for loops&amp;#8221;, with array index. Unlike &amp;#8220;for loops&amp;#8221; in JavaScript, array comprehensions are expressions, and can be returned and assigned.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  for name in [&amp;quot;Roger&amp;quot;, &amp;quot;Roderick&amp;quot;, &amp;quot;Brian&amp;quot;] alert &amp;quot;Release #{name}&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Example with index:&lt;/p&gt;
 
-&lt;p&gt;or interation&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  for name, i in [&amp;quot;Roger the pickpocket&amp;quot;, &amp;quot;Roderick the robber&amp;quot;] alert &amp;quot;#{i} - Release #{name}&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code&gt;  #Coffescript:
+&lt;p&gt;Example with key, value pairs:&lt;/p&gt;
 
-  countdown = (num for num in [10..1])
+&lt;pre&gt;&lt;code&gt;  yearsOld = max: 10, ida: 9, tim: 11
 
+  ages = for child, age of yearsOld
+    &amp;quot;#{child} is #{age}&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 
-   #JavaScript:
-
-  var countdown, num;
-
-  countdown = (function() {
-    var _i, _results;
-    _results = [];
-    for (num = _i = 10; _i &amp;gt;= 1; num = --_i) {
-      _results.push(num);
-    }
-    return _results;
-  })();&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you need the current iteration index, just pass an extra argument:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  for name, i in [&amp;quot;Roger the pickpocket&amp;quot;, &amp;quot;Roderick the robber&amp;quot;] alert &amp;quot;#{i} - Release #{name}&amp;quot;&lt;/code&gt;&lt;/pre&gt;</content>
+&lt;p&gt;CoffeeScript allows you to write JavaScript in a concise, elegant fashion, there is not reason to make yourself unhappy with pure JS.&lt;/p&gt;</content>
   </entry>
 </feed>
