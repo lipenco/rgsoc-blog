@@ -6,7 +6,7 @@ title: Coffescript - JavaScript for Rubyists
 
 Programming languages are like songs, we like the ones we know. If your know Ruby you are becoming picky about syntax and beauty, this is wy you will most likely be tempted to try Coffescript -  a language that compiles into JavaScript. 
 
-There why Coffessscript will allure you so easily is that it was inspired by Ruby language. It embraces Ruby's simplicity, readability and even some idioms.
+It embraces Ruby's simplicity, readability and even some idioms.
 
 No semicolons, no comas, optional parenthesis and curly braces and yes, it is still just old JavaScript.
 
