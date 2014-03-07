@@ -20,15 +20,15 @@
     </author>
     <content type="html">&lt;p&gt;Programming languages is like songs, we like the one we know.&lt;/p&gt;
 
-&lt;p&gt;There is one reson why coffessscript is so beutiful. It was ispired by Ruby language. It is amazing how some of its&amp;#8217; idions make so much sense.&lt;/p&gt;
+&lt;p&gt;There is one reason why coffessscript is so beautiful. It was inspired by Ruby language. It is amazing how some of its’ idioms make so much sense.&lt;/p&gt;
 
-&lt;p&gt;No more semicolons, optional parenthasis and curly braces, no comas, white space sensitive - these are only begigning of benefit coffescript has to offer.&lt;/p&gt;
+&lt;p&gt;No more semicolons, optional parenthesis and curly braces, no comas, white space sensitive - these are only beginning of benefit coffescript has to offer.&lt;/p&gt;
 
-&lt;p&gt;Here are the 8 undespitable resons to love coffeescript:&lt;/p&gt;
+&lt;h2 id='here_are_the_8_indisputable_reasons_to_love_coffeescript'&gt;Here are the 8 indisputable reasons to love coffeescript:&lt;/h2&gt;
 
 &lt;h4 id='1_vars_are_long_gone'&gt;1. Vars are long gone&lt;/h4&gt;
 
-&lt;p&gt;Ugliness if JS:&lt;/p&gt;
+&lt;p&gt;ugliness of JS:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;var count, increment
 
@@ -38,7 +38,7 @@ var increment = function() {
   return total = &amp;quot;CoffeScript is &amp;quot; + count + &amp;quot;better than pure JS&amp;quot;
 }&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Beuty of CoffeeScript&lt;/p&gt;
+&lt;p&gt;beauty of CoffeeScript&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;count
 
@@ -46,20 +46,20 @@ increment -&amp;gt;
   count += 1
   total = &amp;quot;CoffeScript is &amp;quot; + count + &amp;quot;better than pure JS&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4 id='2_imlicit_returns_just_like_in_ruby'&gt;2. Imlicit returns, just like in ruby.&lt;/h4&gt;
+&lt;h4 id='2_implicit_returns_just_like_in_ruby'&gt;2. Implicit returns, just like in ruby.&lt;/h4&gt;
 
-&lt;p&gt;beuty of CoffeeScript&lt;/p&gt;
+&lt;p&gt;beauty of CoffeeScript&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;love -&amp;gt; 
   console.log &amp;quot;I &amp;lt;3 CoffeeScript&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;uglynesss of JavaScript:&lt;/p&gt;
+&lt;p&gt;ugliness of JavaScript:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;var eat = function() {
   return console.log(&amp;quot;I &amp;lt;3 Javascript only a little bit&amp;quot;);
 }&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4 id='3_coffeescript_allow_you_use_defoult_options_even_though_it_looks_weird'&gt;3. CoffeeScript allow you use defoult options, even though it looks weird.&lt;/h4&gt;
+&lt;h4 id='3_coffeescript_allows_to_use_defoult_options'&gt;3. CoffeeScript allows to use defoult options.&lt;/h4&gt;
 
 &lt;p&gt;CoffeScript:&lt;/p&gt;
 
@@ -94,7 +94,7 @@ increment -&amp;gt;
     addDislikesAboutJs: (args...) -&amp;gt;
       @dislakes.push args ...&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4 id='5_flow_control_as_beutifull_and_operators_and_or_is'&gt;5. Flow Control as beutifull and operators (and, or, is)&lt;/h4&gt;
+&lt;h4 id='5_flow_control_as_beautiful_and_operators_and_or_is'&gt;5. Flow Control as beautiful and operators (and, or, is)&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;  if true == true
     &amp;quot;Coffee is ok&amp;quot;
@@ -135,11 +135,31 @@ increment -&amp;gt;
 
 &lt;pre&gt;&lt;code&gt;   &amp;quot;Hey, #{name} have a good day!!&amp;quot;  &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4 id='8_beuty_of_loops'&gt;8. Beuty of loops&lt;/h4&gt;
+&lt;h4 id='8_beauty_of_loops'&gt;8. Beauty of loops&lt;/h4&gt;
 
 &lt;p&gt;Again, CoffeeScript comes to the rescue, with a beautiful syntax:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;  for name in [&amp;quot;Roger&amp;quot;, &amp;quot;Roderick&amp;quot;, &amp;quot;Brian&amp;quot;] alert &amp;quot;Release #{name}&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or interation&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  #Coffescript:
+
+  countdown = (num for num in [10..1])
+
+
+   #JavaScript:
+
+  var countdown, num;
+
+  countdown = (function() {
+    var _i, _results;
+    _results = [];
+    for (num = _i = 10; _i &amp;gt;= 1; num = --_i) {
+      _results.push(num);
+    }
+    return _results;
+  })();&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;If you need the current iteration index, just pass an extra argument:&lt;/p&gt;
 

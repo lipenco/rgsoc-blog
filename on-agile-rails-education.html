@@ -71,15 +71,15 @@
 
 <p>Programming languages is like songs, we like the one we know.</p>
 
-<p>There is one reson why coffessscript is so beutiful. It was ispired by Ruby language. It is amazing how some of its&#8217; idions make so much sense.</p>
+<p>There is one reason why coffessscript is so beautiful. It was inspired by Ruby language. It is amazing how some of its’ idioms make so much sense.</p>
 
-<p>No more semicolons, optional parenthasis and curly braces, no comas, white space sensitive - these are only begigning of benefit coffescript has to offer.</p>
+<p>No more semicolons, optional parenthesis and curly braces, no comas, white space sensitive - these are only beginning of benefit coffescript has to offer.</p>
 
-<p>Here are the 8 undespitable resons to love coffeescript:</p>
+<h2 id='here_are_the_8_indisputable_reasons_to_love_coffeescript'>Here are the 8 indisputable reasons to love coffeescript:</h2>
 
 <h4 id='1_vars_are_long_gone'>1. Vars are long gone</h4>
 
-<p>Ugliness if JS:</p>
+<p>ugliness of JS:</p>
 
 <pre><code>var count, increment
 
@@ -89,7 +89,7 @@ var increment = function() {
   return total = &quot;CoffeScript is &quot; + count + &quot;better than pure JS&quot;
 }</code></pre>
 
-<p>Beuty of CoffeeScript</p>
+<p>beauty of CoffeeScript</p>
 
 <pre><code>count
 
@@ -97,20 +97,20 @@ increment -&gt;
   count += 1
   total = &quot;CoffeScript is &quot; + count + &quot;better than pure JS&quot;</code></pre>
 
-<h4 id='2_imlicit_returns_just_like_in_ruby'>2. Imlicit returns, just like in ruby.</h4>
+<h4 id='2_implicit_returns_just_like_in_ruby'>2. Implicit returns, just like in ruby.</h4>
 
-<p>beuty of CoffeeScript</p>
+<p>beauty of CoffeeScript</p>
 
 <pre><code>love -&gt; 
   console.log &quot;I &lt;3 CoffeeScript&quot;</code></pre>
 
-<p>uglynesss of JavaScript:</p>
+<p>ugliness of JavaScript:</p>
 
 <pre><code>var eat = function() {
   return console.log(&quot;I &lt;3 Javascript only a little bit&quot;);
 }</code></pre>
 
-<h4 id='3_coffeescript_allow_you_use_defoult_options_even_though_it_looks_weird'>3. CoffeeScript allow you use defoult options, even though it looks weird.</h4>
+<h4 id='3_coffeescript_allows_to_use_defoult_options'>3. CoffeeScript allows to use defoult options.</h4>
 
 <p>CoffeScript:</p>
 
@@ -145,7 +145,7 @@ increment -&gt;
     addDislikesAboutJs: (args...) -&gt;
       @dislakes.push args ...</code></pre>
 
-<h4 id='5_flow_control_as_beutifull_and_operators_and_or_is'>5. Flow Control as beutifull and operators (and, or, is)</h4>
+<h4 id='5_flow_control_as_beautiful_and_operators_and_or_is'>5. Flow Control as beautiful and operators (and, or, is)</h4>
 
 <pre><code>  if true == true
     &quot;Coffee is ok&quot;
@@ -186,11 +186,31 @@ increment -&gt;
 
 <pre><code>   &quot;Hey, #{name} have a good day!!&quot;  </code></pre>
 
-<h4 id='8_beuty_of_loops'>8. Beuty of loops</h4>
+<h4 id='8_beauty_of_loops'>8. Beauty of loops</h4>
 
 <p>Again, CoffeeScript comes to the rescue, with a beautiful syntax:</p>
 
 <pre><code>  for name in [&quot;Roger&quot;, &quot;Roderick&quot;, &quot;Brian&quot;] alert &quot;Release #{name}&quot;</code></pre>
+
+<p>or interation</p>
+
+<pre><code>  #Coffescript:
+
+  countdown = (num for num in [10..1])
+
+
+   #JavaScript:
+
+  var countdown, num;
+
+  countdown = (function() {
+    var _i, _results;
+    _results = [];
+    for (num = _i = 10; _i &gt;= 1; num = --_i) {
+      _results.push(num);
+    }
+    return _results;
+  })();</code></pre>
 
 <p>If you need the current iteration index, just pass an extra argument:</p>
 
