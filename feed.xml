@@ -5,142 +5,144 @@
   <id>http://lipen.co/til</id>
   <link href="http://lipen.co/til"/>
   <link href="http://lipen.co/til/feed.xml" rel="self"/>
-  <updated>2013-10-04T00:00:00Z</updated>
+  <updated>2014-02-21T00:00:00Z</updated>
   <author>
     <name>Magdalena Lipinska</name>
   </author>
   <entry>
-    <title>Show must Go On</title>
-    <link rel="alternate" href="http://lipen.co/til/show-must-go-on.html"/>
-    <id>http://lipen.co/til/show-must-go-on.html </id>
-    <published>2013-10-04T00:00:00Z</published>
-    <updated>2013-10-04T00:00:00Z</updated>
+    <title>Coffescript - JavaScript for Rubyists</title>
+    <link rel="alternate" href="http://lipen.co/til/on-agile-rails-education.html"/>
+    <id>http://lipen.co/til/on-agile-rails-education.html </id>
+    <published>2014-02-21T00:00:00Z</published>
+    <updated>2014-02-21T00:00:00Z</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;Rails Girls Summer of Code, you&amp;#8217;ve been so good for me. Now it&amp;#8217;s time to move on, but my app has begin my biggest hobby. My messy code makes it hard to debug and add new features, every new functionality is a big battle. But I just love it.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Programming languages is like songs, we like the one we know.&lt;/p&gt;
 
-&lt;p&gt;There is still so much to do.&lt;/p&gt;
+&lt;p&gt;There is one reson why coffessscript is so beutiful. It was ispired by Ruby language. It is amazing how some of its&amp;#8217; idions make so much sense.&lt;/p&gt;
 
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+&lt;p&gt;No more semicolons, optional parenthasis and curly braces, no comas, white space sensitive - these are only begigning of benefit coffescript has to offer.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Building admin page with charts and tables that represent the data base.&lt;/li&gt;
+&lt;p&gt;Here are the 8 undespitable resons to love coffeescript:&lt;/p&gt;
 
-&lt;li&gt;Sinatra&lt;/li&gt;
+&lt;h4 id='1_vars_are_long_gone'&gt;1. Vars are long gone&lt;/h4&gt;
 
-&lt;li&gt;Mustache&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Ugliness if JS:&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: I like my new internship in Tokyo, so many news stuff and frameworks to learn.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Pimping my App</title>
-    <link rel="alternate" href="http://lipen.co/til/pipmping-my-app.html"/>
-    <id>http://lipen.co/til/pipmping-my-app.html </id>
-    <published>2013-09-26T00:00:00Z</published>
-    <updated>2013-09-26T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;jQuery UI is exactly the magic I need - resizing, sorting, dragging makes me happier about the usability of ImpressLab.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;var count, increment
 
-&lt;p&gt;Every change brings a plague of many bugs. Working on landing page in progress.&lt;/p&gt;
+var increment = function() {
+  var total;
+  count += 1;
+  return total = &amp;quot;CoffeScript is &amp;quot; + count + &amp;quot;better than pure JS&amp;quot;
+}&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+&lt;p&gt;Beuty of CoffeeScript&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;I hate interviews, and everybody who thinks I want to work for them for free.&lt;/li&gt;
+&lt;pre&gt;&lt;code&gt;count
 
-&lt;li&gt;Backbone.js&lt;/li&gt;
-&lt;/ul&gt;
+increment -&amp;gt;
+  count += 1
+  total = &amp;quot;CoffeScript is &amp;quot; + count + &amp;quot;better than pure JS&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Sad because these are the last days of RGSoC. I will not finish working on ImpressLab - too much fun.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Coding Endorphins</title>
-    <link rel="alternate" href="http://lipen.co/til/coding-endorphins.html"/>
-    <id>http://lipen.co/til/coding-endorphins.html </id>
-    <published>2013-09-17T00:00:00Z</published>
-    <updated>2013-09-17T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;How beautiful it is. Last week I made some significant jumps towards enlightenment. First JSON, first cross iframes function, first question on StackOverFlow, first POST function.&lt;/p&gt;
+&lt;h4 id='2_imlicit_returns_just_like_in_ruby'&gt;2. Imlicit returns, just like in ruby.&lt;/h4&gt;
 
-&lt;p&gt;Cosing gets me high. Look how nice it is: &lt;a href='http://impress-builder.herokuapp.com/'&gt;Impress Builder&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;beuty of CoffeeScript&lt;/p&gt;
 
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;love -&amp;gt; 
+  console.log &amp;quot;I &amp;lt;3 CoffeeScript&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Objects are useful and usable.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;uglynesss of JavaScript:&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: StackOverFlow is crazy, it solved my problems in 10s.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Java Script is Getting more Complicated</title>
-    <link rel="alternate" href="http://lipen.co/til/JS-is-getting-more-complicated.html"/>
-    <id>http://lipen.co/til/JS-is-getting-more-complicated.html </id>
-    <published>2013-09-10T00:00:00Z</published>
-    <updated>2013-09-10T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;How to store the slides content inside JavaScript and transfer it between 2 iframes. This and many more questions are killing me softly. And every time I am close to the solution it&amp;#8217;s disappointing.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;var eat = function() {
+  return console.log(&amp;quot;I &amp;lt;3 Javascript only a little bit&amp;quot;);
+}&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;For now you can play with editing content without storing :) &lt;a href='http://impress-builder.herokuapp.com/'&gt;Impress Builder&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id='3_coffeescript_allow_you_use_defoult_options_even_though_it_looks_weird'&gt;3. CoffeeScript allow you use defoult options, even though it looks weird.&lt;/h4&gt;
 
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+&lt;p&gt;CoffeScript:&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;data(); parent.window and some more words which should be helpful on my way to let you edit presentation content.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;love = (options {}) -&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: Sparta!&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Feel free to get Impress[ed]</title>
-    <link rel="alternate" href="http://lipen.co/til/feel-free-to-get-impress.html"/>
-    <id>http://lipen.co/til/feel-free-to-get-impress.html </id>
-    <published>2013-09-01T00:00:00Z</published>
-    <updated>2013-09-01T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;My prototype is Working! Check it out &lt;a href='http://impress-builder.herokuapp.com/'&gt;Impress Builder&lt;/a&gt; and get your own pre-build presentation.&lt;/p&gt;
+&lt;p&gt;Javascrip:&lt;/p&gt;
 
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;var love = functions(options) {
+  if (options == null) {
+    options = {};
+  }
+};&lt;/code&gt;&lt;/pre&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Modules, include ::, understanding gems, IO objects &amp;#8230;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h4 id='4_coffeescript_serves_spats'&gt;4. CoffeeScript serves spats.&lt;/h4&gt;
 
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: 1sh of September - victory, Poland!&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>The Code of Impression</title>
-    <link rel="alternate" href="http://lipen.co/til/the-code-of-impression.html"/>
-    <id>http://lipen.co/til/the-code-of-impression.html </id>
-    <published>2013-08-29T00:00:00Z</published>
-    <updated>2013-08-29T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;a href='http://impress-builder.herokuapp.com/'&gt;Impress Builder&lt;/a&gt; will impress you, I am sure. Check it now.&lt;/p&gt;
+&lt;p&gt;Javascrip:&lt;/p&gt;
 
-&lt;p&gt;It is hard to stop working on it. Fortunately there is still lot of pleasure in it, it will not be finished so soon.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; var perosn;
 
-&lt;h3 id='today_i_learned'&gt;Today I Learned:&lt;/h3&gt;
+ person = {
+   name: &amp;quot;Magda&amp;quot;
+   addDislikesAboutJs: functions() {
+     var arg = [].slice.call(arguments);
+     return [].push.apply(this.dislakes, args);
+   }
+ };&lt;/code&gt;&lt;/pre&gt;
 
-&lt;ul&gt;
-&lt;li&gt;More controllers.&lt;/li&gt;
+&lt;p&gt;CoffeScript:&lt;/p&gt;
 
-&lt;li&gt;Rails shows no mercy when it comes to code correctness. In browser my JS code worked just fine, to run it on Rails I have to fix it.&lt;/li&gt;
+&lt;pre&gt;&lt;code&gt; person = 
+    name: &amp;quot;Magda&amp;quot;
+    addDislikesAboutJs: (args...) -&amp;gt;
+      @dislakes.push args ...&lt;/code&gt;&lt;/pre&gt;
 
-&lt;li&gt;I got excited about AngularJS.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h4 id='5_flow_control_as_beutifull_and_operators_and_or_is'&gt;5. Flow Control as beutifull and operators (and, or, is)&lt;/h4&gt;
 
-&lt;p&gt;&lt;em&gt;To sum up&lt;/em&gt;: This time I have a beer in my fridge. I will open vodka when the button &amp;#8216;download zip&amp;#8217; gets to work.&lt;/p&gt;</content>
+&lt;pre&gt;&lt;code&gt;  if true == true
+    &amp;quot;Coffee is ok&amp;quot;
+
+  if true != true then &amp;quot;Weird&amp;quot;
+
+  if 1 &amp;gt; 0 then &amp;quot;Ok&amp;quot; else &amp;quot;NEGATIVE&amp;quot;
+
+  alert &amp;quot;It&amp;#39;s cold!&amp;quot; if heat &amp;lt; 10
+
+  if not true then &amp;quot;Panic&amp;quot;
+
+  unless true
+    &amp;quot;Panic&amp;quot;
+
+  if true is 1
+    &amp;quot;type coercion fail&amp;quot;
+
+  if 10 == &amp;quot;+10&amp;quot; then &amp;quot;type coercion fail&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id='6_existencial_operators'&gt;6. Existencial operators&lt;/h4&gt;
+
+&lt;p&gt;CoffeeScript existential operator ? returns true unless a variable is null or undefined, similar to Ruby’s nil?:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   praise if brian?&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can also use it in place of the || operator:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  velocity = southern ? 40&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Coffescript has somthing similar to Active Support’s try method:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  player.getLife()?.play()&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id='7_string_interpolations'&gt;7. String Interpolations&lt;/h4&gt;
+
+&lt;p&gt;So rubiest, it doesn&amp;#8217;t happen in pure JS:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   &amp;quot;Hey, #{name} have a good day!!&amp;quot;  &lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id='8_beuty_of_loops'&gt;8. Beuty of loops&lt;/h4&gt;
+
+&lt;p&gt;Again, CoffeeScript comes to the rescue, with a beautiful syntax:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  for name in [&amp;quot;Roger&amp;quot;, &amp;quot;Roderick&amp;quot;, &amp;quot;Brian&amp;quot;] alert &amp;quot;Release #{name}&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you need the current iteration index, just pass an extra argument:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  for name, i in [&amp;quot;Roger the pickpocket&amp;quot;, &amp;quot;Roderick the robber&amp;quot;] alert &amp;quot;#{i} - Release #{name}&amp;quot;&lt;/code&gt;&lt;/pre&gt;</content>
   </entry>
 </feed>
